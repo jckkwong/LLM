@@ -1,0 +1,20 @@
+﻿question,answer
+"Do you have a dedicated security authority for the organization, e.g. CISO?","Yes
+Razvan Anghelidi, Director of Technology"
+Is there a process to set up dual authorization,
+Is senior management involved in your cyber risk management ?,Yes
+Do you have documented security policy?,Yes
+"Do you determine, prioritize, and treat cybersecurity risks related to your operation?",Yes
+"Do you have third party assessments or certifications, e.g. ISO 9001:2015, ISO27001, SOC, CMMI for the organization?","No
+We work towards obtaining a SOC 2 certificate during Q3 2020."
+"For your most recent independent third-party security program assessment: Were all identified Critical, High, and Medium risk findings/non-conformances/issues remediated? (If no, explain plans to address.)",Yes
+"Do you have a documented, and tested, business continuity/disaster recovery plan?",Yes
+What is your RTO (recovery time objective)?,"Depends on the hosting plan, we offer between 15 minutes RPO + RTO for the best (private cloud in primary DC, DR to warm VMs in Azure) to standard (24-48 hours, private cloud in primary DC, nightly VM backups to Signifi office)"
+What is your RPO (recovery point objective)?,"Depends on the hosting plan, we offer between 15 minutes RPO + RTO for the best (private cloud in primary DC, DR to warm VMs in Azure) to standard (24-48 hours, private cloud in primary DC, nightly VM backups to Signifi office)"
+Do you have an documented incident response plan for the organization?,Yes
+"Is a process in place to wipe data from hardware before it is disposed or reused in a way that meets required compliance sets. (e.g. degaussing, cryptographic wiping, disk shredding, etc.)",Yes
+What is your PCI DSS compliance level?,3
+Do you use a set of detailed practices for your Customer Support activities e.g. ITIL?,Yes
+"Are all entrances protected by security officer, receptionist or electronic access control system?","Yes
+All customer data for Signifi hosted servers are in third party data centers with strict physical and network security controls."
+Are all visitors required to provide proof of ID and sign in before entry to internal area?,Yes

@@ -1,0 +1,663 @@
+Critical Security Control,NIST 800-53 rev4,NIST Core Framework,DHS CDM Program,ISO 27002:2013,ISO 27002:2005,NSA MNP,Australian Top 35,NSA Top 10,GCHQ 10 Steps,UK Cyber Essentials,UK ICO Protecting Data,PCI DSS 3.0,HIPAA,FFIEC Examiners Handbook,COBIT 5,NERC CIP v5,NERC CIP v4,NERC CIP v3,Cloud Security Alliance,FY15 FISMA Metrics,ITIL 2011 KPIs
+Critical Security Control #1: Inventory of Authorized and Unauthorized Devices,"CA-7: Continuous Monitoring
+CM-8: Information System Component Inventory
+IA-3: Device Identification and Authentication
+SA-4: Acquisition Process
+SC-17: Public Key Infrastructure Certificates
+SI-4: Information System Monitoring
+PM-5: Information System Inventory","ID.AM-1
+ID.AM-3
+PR.DS-3",HWAM: Hardware Asset Management,"A.8.1.1
+A.9.1.2
+A.13.1.1","A.7.1.1
+A.10.6.1 - A.10.6.2
+A.11.4.6","Map Your Network
+Baseline Management
+Document Your Network
+Personal Electronic Device Management
+Network Access Control
+Log Management",,,,,Inappropriate locations for processing data,2.4,"164.310(b): Workstation Use - R
+164.310(c): Workstation Security - R","Host Security
+User Equipment Security (Workstation, Laptop, Handheld)","APO13: Manage Security
+DSS05: Manage Security Services
+BAI09: Manage Assets","CIP-002-5 R1
+CIP-002-5 R2","CIP-002-4 R1
+CIP-002-4 R2
+CIP-002-4 R3
+CIP-003-4 R5
+CIP-004-4 R4
+CIP-005-4 R2
+CIP-006-4 R3","CIP-002-3 R1
+CIP-002-3 R2
+CIP-002-3 R3
+CIP-002-3 R4
+CIP-003-3 R5
+CIP-004-3 R4
+CIP-005-3 R2
+CIP-006-3 R3","DCS-01
+MOS-09
+MOS-15","1: System Inventory
+2: Continuous Monitoring",Information Security Management
+Critical Security Control #2: Inventory of Authorized and Unauthorized Software,"CA-7: Continuous Monitoring
+CM-2: Baseline Configuration
+CM-8: Information System Component Inventory
+CM-10: Software Usage Restrictions
+CM-11: User-Installed Software
+SA-4: Acquisition Process
+SC-18: Mobile Code
+SC-34: Non-Modifiable Executable Programs
+SI-4: Information System Monitoring
+PM-5: Information System Inventory","ID.AM-2
+PR.DS-6","HWAM: Hardware Asset Management
+SWAM: Software Asset Management","A.12.5.1
+A.12.6.2",,"Baseline Management
+Executable Content Restrictions
+Configuration and Change Management","1
+14
+17",Application Whitelisting,,,Decommissioning of software or services,,"164.310(b): Workstation Use - R
+164.310(c): Workstation Security - R","Host Security
+User Equipment Security (Workstation, Laptop, Handheld)","APO13: Manage Security
+DSS05: Manage Security Services",,,,"CCC-04
+MOS-3
+MOS-04
+MOS-15","1: System Inventory
+2: Continuous Monitoring",Information Security Management
+Critical Security Control #3: Secure Configurations for Hardware and Software,"CA-7: Continuous Monitoring
+CM-2: Baseline Configuration
+CM-3: Configuration Change Control
+CM-5: Access Restrictions for Change
+CM-6: Configuration Settings
+CM-7: Least Functionality
+CM-8: Information System Component Inventory
+CM-9: Configuration Management Plan
+CM-11: User-Installed Software
+MA-4: Nonlocal Maintenance
+RA-5: Vulnerability Scanning
+SA-4: Acquisition Process
+SC-15: Collaborative Computing Devices
+SC-34: Non-Modifiable Executable Programs
+SI-2: Flaw Remediation
+SI-4: Information System Monitoring",PR.IP-1,CSM: Configuration Settings Management,"A.14.2.4
+A.14.2.8
+A.18.2.3",A.15.2.2,"Patch Management
+Baseline Management
+Data-at-Rest Protection
+Configuration and Change Management","2-5
+21","Control Administrative Privileges
+Set a Secure Baseline Configuration
+Take Advantage of Software Improvements",Secure Configuration,"Secure Configuration
+Patch Management",,"2.2
+2.3
+6.2
+11.5","164.310(b): Workstation Use - R
+164.310(c): Workstation Security - R","Host Security
+User Equipment Security (Workstation, Laptop, Handheld)","APO13: Manage Security
+DSS05: Manage Security Services
+BAI10: Manage Configuration","CIP-007-5 R2
+CIP-010-5 R2","CIP-003-4 R6
+CIP-007-4 R3","CIP-003-3 R6
+CIP-007-3 R3","IVS-07
+MOS-15
+MOS-19
+TVM-02",2: Continuous Monitoring,Information Security Management
+Critical Security Control #4: Continuous Vulnerability Assessment and Remediation,"CA-2: Security Assessments
+CA-7: Continuous Monitoring
+RA-5: Vulnerability Scanning
+SC-34: Non-Modifiable Executable Programs
+SI-4: Information System Monitoring
+SI-7: Software, Firmware, and Information Integrity","ID.RA-1
+ID.RA-2
+PR.IP-12
+DE.CM-8
+RS.MI-3",VUL: Vulnerability Management,"A.12.6.1
+A.14.2.8","A.12.6.1
+A.13.1.2
+A.15.2.2","Patch Management
+Log Management
+Configuration and Change Management",2-3,Take Advantage of Software Improvements,,Patch Management,Software Updates,"6.1
+6.2
+11.2","164.310(b): Workstation Use - R
+164.310(c): Workstation Security - R","Host Security
+User Equipment Security (Workstation, Laptop, Handheld)","APO13: Manage Security
+DSS05: Manage Security Services","CIP-007-5 R2
+CIP-010-5 R3","CIP-005-4 R4
+CIP-007-4 R3
+CIP-007-4 R8","CIP-005-3 R4
+CIP-007-3 R3
+CIP-007-3 R8","IVS-05
+MOS-15
+MOS-19
+TVM-02",2: Continuous Monitoring,Information Security Management
+Critical Security Control #5: Controlled Use of Administrative Privileges,"AC-2: Account Management
+AC-6: Least Privilege
+AC-17: Remote Access
+AC-19: Access Control for Mobile Devices
+CA-7: Continuous Monitoring
+IA-2: Identification and Authentication (Organizational Users)
+IA-4: Identifier Management
+IA-5: Authenticator Management
+SI-4: Information System Monitoring","PR.AC-4
+PR.AT-2
+PR.MA-2
+PR.PT-3",,"A.9.1.1
+A.9.2.2 - A.9.2.6
+A.9.3.1
+A.9.4.1 - A.9.4.4","A.10.4.4
+A.11.5.1 - A.11.5.3","User Access
+Baseline Management
+Log Management","4
+9
+11
+25",Control Administrative Privileges,Monitoring,Access Control,"Configuration of SSL and TLS
+Default Credentials","2.1
+7.1 - 7.3
+8.1 - 8.3
+8.7","164.310(b): Workstation Use - R
+164.310(c): Workstation Security - R",Authentication and Access Controls,"APO13: Manage Security
+DSS05: Manage Security Services","CIP-004-5 R4
+CIP-004-5 R5
+CIP-007-5 R5","CIP-003-4 R5
+CIP-004-4 R4
+CIP-005-4 R2
+CIP-005-4 R3
+CIP-006-4 R3
+CIP-007-4 R3","CIP-003-3 R5
+CIP-004-3 R4
+CIP-005-3 R2
+CIP-005-3 R3
+CIP-006-3 R3
+CIP-007-3 R3","IAM-09 - IAM-13
+MOS-16
+MOS-20",3: Identity Credential and Access Management,Information Security Management
+"Critical Security Control #6: Maintenance, Monitoring, and Analysis of Audit Logs","AC-23: Data Mining Protection
+AU-2: Audit Events
+AU-3: Content of Audit Records
+AU-4: Audit Storage Capacity
+AU-5: Response to Audit Processing Failures
+AU-6: Audit Review, Analysis, and Reporting
+AU-7: Audit Reduction and Report Generation
+AU-8: Time Stamps
+AU-9: Protection of Audit Information
+AU-10: Non-repudiation
+AU-11: Audit Record Retention
+AU-12: Audit Generation
+AU-13: Monitoring for Information Disclosure
+AU-14: Session Audit
+CA-7: Continuous Monitoring
+IA-10: Adaptive Identification and Authentication
+SI-4: Information System Monitoring","PR.PT-1
+DE.AE-3
+DE.DP-1
+DE.DP-2
+DE.DP-3
+DE.DP-4
+DE.DP-5",Generic Audit Monitoring,"A.12.4.1 - A.12.4.4
+A.12.7.1","A.10.10.1 - A.10.10.3
+A.10.10.6",Log Management,"15-16
+35",,Monitoring,,,10.1 - 10.7,"164.308(a)(1): Security Management Process - Information System Activity Review R
+164.308(a)(5):  Security Awareness and Training - Log-in Monitoring A",Security Monitoring,"APO13: Manage Security
+DSS05: Manage Security Services",CIP-007-5 R4,"CIP-005-4 R3
+CIP-007-4 R6","CIP-005-3 R3
+CIP-007-3 R6","IVS-01
+IVS-03",,Information Security Management
+Critical Security Control #7: Email and Web Browser Protections,"CA-7: Continuous Monitoring
+CM-2: Baseline Configuration
+CM-3: Configuration Change Control
+CM-5: Access Restrictions for Change
+CM-6: Configuration Settings
+CM-7: Least Functionality
+CM-8: Information System Component Inventory
+CM-9: Configuration Management Plan
+CM-11: User-Installed Software
+MA-4: Nonlocal Maintenance
+RA-5: Vulnerability Scanning
+SA-4: Acquisition Process
+SC-15: Collaborative Computing Devices
+SC-34: Non-Modifiable Executable Programs
+SI-2: Flaw Remediation
+SI-4: Information System Monitoring",PR.IP-1,CSM: Configuration Settings Management,"A.14.2.4
+A.14.2.8
+A.18.2.3",A.15.2.2,"Patch Management
+Baseline Management
+Data-at-Rest Protection
+Configuration and Change Management","2-5
+21","Control Administrative Privileges
+Set a Secure Baseline Configuration
+Take Advantage of Software Improvements",Secure Configuration,"Secure Configuration
+Patch Management",,"2.2
+2.3
+6.2
+11.5","164.310(b): Workstation Use - R
+164.310(c): Workstation Security - R","Host Security
+User Equipment Security (Workstation, Laptop, Handheld)","APO13: Manage Security
+DSS05: Manage Security Services
+BAI10: Manage Configuration","CIP-007-5 R2
+CIP-010-5 R2","CIP-003-4 R6
+CIP-007-4 R3","CIP-003-3 R6
+CIP-007-3 R3","IVS-07
+MOS-15
+MOS-19
+TVM-02",2: Continuous Monitoring,Information Security Management
+Critical Security Control #8: Malware Defenses,"CA-7: Continuous Monitoring
+SC-39: Process Isolation
+SC-44: Detonation Chambers
+SI-3: Malicious Code Protection
+SI-4: Information System Monitoring
+SI-8: Spam Protection","PR.PT-2
+DE.CM-4
+DE.CM-5",,"A.8.3.1
+A.12.2.1
+A.13.2.3","A.10.4.1 - A.10.4.2
+A.10.7.1","Device Accessibility
+Virus Scanners and Host Intrusion Prevention Systems
+Security Gateways, Proxies, and Firewalls
+Network Security Monitoring
+Log Management","7
+17
+22
+26
+30","Use Anti-Virus File Reputation Services
+Enable Anti-Exploitation Features","Removable Media Controls
+Malware Protection",Malware Protection,,5.1 - 5.4,"164.308(a)(5): Security Awareness and Training - Protection from Malicious Software A
+164.310(d)(1): Device and Media Controls - Accountability A
+164.310(b): Workstation Use - R
+164.310(c): Workstation Security - R","Host Security
+User Equipment Security (Workstation, Laptop, Handheld)","APO13: Manage Security
+DSS05: Manage Security Services",CIP-007-5 R3,CIP-007-4 R4,CIP-007-3 R4,"MOS-01
+MOS-15
+TVM-01
+TVM-03",4: Anti Phishing and Malware Defense,Information Security Management
+Critical Security Control #9: Limitation and Control of Network Ports,"AC-4: Information Flow Enforcement
+CA-7: Continuous Monitoring
+CA-9: Internal System Connections
+CM-2: Baseline Configuration
+CM-6: Configuration Settings
+CM-8: Information System Component Inventory
+SC-20: Secure Name /Address Resolution Service (Authoritative Source)
+SC-21: Secure Name /Address Resolution Service (Recursive or Caching Resolver)
+SC-22: Architecture and Provisioning for Name/Address Resolution Service
+SC-41: Port and I/O Device Access
+SI-4: Information System Monitoring","PR.AC-5
+DE.AE-1",Boundary Protection,"A.9.1.2
+A.13.1.1
+A.13.1.2
+A.14.1.2","A.10.6.1 - A.10.6.2
+A.11.4.4","Baseline Management
+Configuration and Change Management","2
+3
+12
+13
+27",Limit Workstation-to-Workstation Communication,Network Security,,"Decommissioning of software or services
+Unnecessary Services",1.4,"164.310(b): Workstation Use - R
+164.310(c): Workstation Security - R",Network Security,"APO13: Manage Security
+DSS05: Manage Security Services",CIP-007-5 R1,CIP-007-4 R2,CIP-007-3 R2,"DSI-02
+IVS-06
+IPY-04",,Information Security Management
+Critical Security Control #10: Data Recovery Capability,"CP-9: Information System Backup
+CP-10: Information System Recovery and Reconstitution
+MP-4: Media Storage",PR.IP-4,,"A.10.1.1
+A.12.3.1","A.10.5.1
+A.10.8.3",Backup Strategy,,,,,,"4.3
+9.5 - 9.7","164.308(a)(7): Contingency Plan - Data Backup Plan R
+164.308(a)(7): Contingency Plan - Disaster Recovery Plan R
+164.308(a)(7): Contingency Plan - Testing and Revision Procedure A
+164.310(d)(1): Device and Media Controls - Data Backup and Storage A",Encryption,"APO13: Manage Security
+DSS05: Manage Security Services",,"CIP-009-4 R4
+CIP-009-4 R5","CIP-009-3 R4
+CIP-009-3 R5",MOS-11,,Information Security Management
+Critical Security Control #11: Secure Configurations for Network Devices,"AC-4: Information Flow Enforcement
+CA-3: System Interconnections
+CA-7: Continuous Monitoring
+CA-9: Internal System Connections
+CM-2: Baseline Configuration
+CM-3: Configuration Change Control
+CM-5: Access Restrictions for Change
+CM-6: Configuration Settings
+CM-8: Information System Component Inventory
+MA-4: Nonlocal Maintenance
+SC-24: Fail in Known State
+SI-4: Information System Monitoring","PR.AC-5
+PR.IP-1
+PR.PT-4","CSM: Configuration Settings Management
+Boundary Protection","A.9.1.2
+A.13.1.1
+A.13.1.3","A.10.6.1 - A.10.6.2
+A.11.4.5
+A.11.4.7
+A.11.5.1 - A.11.5.3","Map Your Network
+Patch Management
+Baseline Management
+Document Your Network
+Security Gateways, Proxies, and Firewalls
+Configuration and Change Management","2
+3
+10","Set a Secure Baseline Configuration
+Segregate Networks and Functions","Secure Configuration
+Network Security","Boundary firewalls and internet gateways
+Secure Configuration
+Patch Management","Software Updates
+Inappropriate locations for processing data","1.1 - 1.2
+2.2
+6.2",,Network Security,"APO13: Manage Security
+DSS05: Manage Security Services
+BAI10: Manage Configuration","CIP-005-5 R1
+CIP-007-5 R2","CIP-003-4 R6
+CIP-004-4 R4
+CIP-005-4 R2
+CIP-006-4 R3
+CIP-007-4 R3","CIP-003-3 R6
+CIP-004-3 R4
+CIP-005-3 R2
+CIP-006-3 R3
+CIP-007-3 R3","DSI-02
+IAM-03
+IVS-06
+IVS-09
+MOS-19
+TVM-02",3: Identity Credential and Access Management,Information Security Management
+Critical Security Control #12: Boundary Defense,"AC-4: Information Flow Enforcement
+AC-17: Remote Access
+AC-20: Use of External Information Systems
+CA-3: System Interconnections
+CA-7: Continuous Monitoring
+CA-9: Internal System Connections
+CM-2: Baseline Configuration
+SA-9: External Information System Services
+SC-7: Boundary Protection
+SC-8: Transmission Confidentiality and Integrity
+SI-4: Information System Monitoring","PR.AC-3
+PR.AC-5
+PR.MA-2
+DE.AE-1",Boundary Protection,"A.9.1.2
+A.12.4.1
+A.12.7.1
+A.13.1.1
+A.13.1.3
+A.13.2.3","A.10.6.1 - A.10.6.2
+A.10.10.2
+A.11.4.2
+A.11.4.5
+A.11.4.7
+A.11.5.1 - A.11.5.3
+A.11.7.1 - A.11.7.2","Map Your Network
+Network Architecture
+Baseline Management
+Document Your Network
+Personal Electronic Device Management
+Security Gateways, Proxies, and Firewalls
+Remote Access Security
+Network Security Monitoring
+Log Management","10-11
+18-20
+23
+32-34",Segregate Networks and Functions,"Home and Mobile Working
+Monitoring
+Network Security",Boundary firewalls and internet gateways,"Configuration of SSL and TLS
+Inappropriate locations for processing data","1.1 - 1.3
+8.3
+10.8
+11.4",,"Network Security
+Security Monitoring","APO13: Manage Security
+DSS05: Manage Security Services","CIP-005-5 R1
+CIP-005-5 R2
+CIP-007-5 R4","CIP-005-4 R3
+CIP-007-4 R6","CIP-005-3 R3
+CIP-007-3 R6","DSI-02
+IVS-01
+IVS-06
+IVS-09
+MOS-16","3: Identity Credential and Access Management
+6: Network Defense
+7: Boundary Protection",Information Security Management
+Critical Security Control #13: Data Protection,"AC-3: Access Enforcement
+AC-4: Information Flow Enforcement
+AC-23: Data Mining Protection
+CA-7: Continuous Monitoring
+CA-9: Internal System Connections
+IR-9: Information Spillage Response
+MP-5: Media Transport
+SA-18: Tamper Resistance and Detection
+SC-8: Transmission Confidentiality and Integrity
+SC-28: Protection of Information at Rest
+SC-31: Covert Channel Analysis
+SC-41: Port and I/O Device Access
+SI-4: Information System Monitoring","PR.AC-5
+PR.DS-2
+PR.DS-5
+PR.PT-2",,"A.8.3.1
+A.10.1.1 - A.10.1.2
+A.13.2.3
+A.18.1.5","A.10.7.1
+A.12.3.1 - A.12.3.2
+A.12.5.4
+A.15.1.6","Network Architecture
+Device Accessibility
+Security Gateways, Proxies, and Firewalls
+Network Security Monitoring",26,,Removable Media Controls,,,"3.6
+4.1 - 4.3","164.308(a)(4): Information Access Management - Isolating Health care Clearinghouse Function R
+164.310(d)(1): Device and Media Controls - Accountability A
+164.312(a)(1): Access Control - Encryption and Decryption A
+164.312(e)(1): Transmission Security - Integrity Controls A
+164.312(e)(1): Transmission Security - Encryption A","Encryption
+Data Security","APO13: Manage Security
+DSS05: Manage Security Services",CIP-011-5 R1,,,"DSI-02
+DSI-05
+EKM-01 - EKM-04
+MOS-11",5: Data Protection,Information Security Management
+Critical Security Control #14: Controlled Access Based on the Need to Know,"AC-1: Access Control Policy and Procedures
+AC-2: Account Management
+AC-3: Access Enforcement
+AC-6: Least Privilege
+AC-24: Access Control Decisions
+CA-7: Continuous Monitoring
+MP-3: Media Marking
+RA-2: Security Categorization
+SC-16: Transmission of Security Attributes
+SI-4: Information System Monitoring","PR.AC-4
+PR.AC-5
+PR.DS-1
+PR.DS-2
+PR.PT-2
+PR.PT-3","TRUST: Access Control Management
+PRIV: Privileges","A.8.3.1
+A.9.1.1
+A.10.1.1","A.10.7.1
+A.10.10.1 - A.10.10.3
+A.11.4.5
+A.11.4.7
+A.11.6.1 - A.11.6.2
+A.12.5.4","Network Architecture
+Device Accessibility
+User Access
+Data-at-Rest Protection
+Log Management",26,Segregate Networks and Functions,"Managing User Privileges
+Network Security",Access Control,Inappropriate locations for processing data,"1.3 - 1.4
+4.3
+7.1 - 7.3
+8.7","164.308(a)(1): Security Management Process - Information System Activity Review R
+164.308(a)(4): Information Access Management - Isolating Health care Clearinghouse Function R
+164.308(a)(4): Information Access Management - Access Authorization A
+164.312(a)(1): Access Control - Encryption and Decryption A
+164.312(c)(1): Integrity - Mechanism to Authenticate Electronic Protected Health Information A
+164.312(a)(1):  Access Control - Automatic Logoff A
+164.312(d): Person or Entity Authentication - R
+164.312(e)(1): Transmission Security - Integrity Controls A
+164.312(e)(1): Transmission Security - Encryption A","Authentication and Access Controls
+Encryption
+Data Security","APO13: Manage Security
+DSS05: Manage Security Services","CIP-005-5 R1
+CIP-005-5 R2
+CIP-007-5 R4
+CIP-011-5 R1","CIP-003-4 R5
+CIP-004-4 R4
+CIP-005-4 R2
+CIP-006-4 R3","CIP-003-3 R5
+CIP-004-3 R4
+CIP-005-3 R2
+CIP-006-3 R3","DSI-02
+IVS-09
+MOS-11",,Information Security Management
+Critical Security Control #15: Wireless Access Control,"AC-18: Wireless Access
+AC-19: Access Control for Mobile Devices
+CA-3: System Interconnections
+CA-7: Continuous Monitoring
+CM-2: Baseline Configuration
+IA-3: Device Identification and Authentication
+SC-8: Transmission Confidentiality and Integrity
+SC-17: Public Key Infrastructure Certificates
+SC-40: Wireless Link Protection
+SI-4: Information System Monitoring",,,"A.10.1.1
+A.12.4.1
+A.12.7.1",,"Map Your Network
+Baseline Management
+Document Your Network
+Personal Electronic Device Management
+Network Access Control",,,"Monitoring
+Network Security",,,"4.3
+11.1",,"Network Security
+Encryption
+Security Monitoring","APO13: Manage Security
+DSS05: Manage Security Services",CIP-007-5 R4,"CIP-005-4 R3
+CIP-007-4 R6","CIP-005-3 R3
+CIP-007-3 R6","IVS-01
+IVS-06
+IVS-12
+MOS-11",,Information Security Management
+Critical Security Control #16: Account Monitoring and Control,"AC-2: Account Management
+AC-3: Access Enforcement
+AC-7: Unsuccessful Logon Attempts
+AC-11: Session Lock
+AC-12: Session Termination
+CA-7: Continuous Monitoring
+IA-5: Authenticator Management
+IA-10: Adaptive Identification and Authentication
+SC-17: Public Key Infrastructure Certificates
+SC-23: Session Authenticity
+SI-4: Information System Monitoring","PR.AC-1
+PR.AC-4
+PR.PT-3",CRED: Credentials and Authentication Management,"A.9.1.1
+A.9.2.1 - A.9.2.6
+A.9.3.1
+A.9.4.1 - A.9.4.3
+A.11.2.8","A.8.3.3
+A.11.2.1
+A.11.2.3 - A.11.2.4
+A.11.3.1 - A.11.3.3
+A.11.5.1 - A.11.5.3","User Access
+Baseline Management
+Log Management",25,,Managing User Privileges,Access Control,Configuration of SSL and TLS,"7.1 - 7.3
+8.7 - 8.8","164.308(a)(1): Security Management Process - Information System Activity Review R
+164.308(a)(4): Information Access Management - Access Authorization A
+164.308(a)(4): Information Access Management - Access Establishment and Modification A
+164.308(a)(5): Security Awareness and Training - Password Management A
+164.312(a)(1): Access Control - Unique User Identification R
+164.312(a)(1): Access Control - Automatic Logoff A
+164.312(d): Person or Entity Authentication - R
+164.312(e)(1): Transmission Security - Integrity Controls A
+164.312(e)(1): Transmission Security - Encryption A",Authentication and Access Controls,"APO13: Manage Security
+DSS05: Manage Security Services","CIP-005-5 R1
+CIP-005-5 R2
+CIP-007-5 R4","CIP-005-4 R3
+CIP-007-4 R5
+CIP-007-4 R6","CIP-005-3 R3
+CIP-007-3 R5
+CIP-007-3 R6","IAM-02
+IAM-09 - IAM-12
+MOS-14
+MOS-16
+MOS-20",3: Identity Credential and Access Management,Information Security Management
+Critical Security Control #17: Security Skills Assessment and Appropriate Training to Fill Gaps,"AT-1: Security Awareness and Training Policy and Procedures
+AT-2: Security Awareness Training
+AT-3: Role-Based Security Training
+AT-4: Security Training Records
+SA-11: Developer Security Testing and Evaluation
+SA-16: Developer-Provided Training
+PM-13: Information Security Workforce
+PM-14: Testing, Training, & Monitoring
+PM-16: Threat Awareness Program","PR.AT-1
+PR.AT-2
+PR.AT-3
+PR.AT-4
+PR.AT-5",BEHV: Security-Related Behavior Management,A.7.2.2,A.8.2.2,Training,28,,User Education & Awareness,,,12.6,"164.308(a)(5): Security Awareness and Training - Security Reminders A
+164.308(a)(5): Security Awareness and Training - Protection from Malicious Software A
+164.308(a)(5): Security Awareness and Training - Log-in Monitoring A
+164.308(a)(5): Security Awareness and Training - Password Management A",Personnel Security,"APO13: Manage Security
+DSS05: Manage Security Services","CIP-004-5 R1
+CIP-004-5 R2","CIP-004-4 R1
+CIP-004-4 R2","CIP-004-3 R1
+CIP-004-3 R2","HRS-10
+MOS-05",8: Training and Education,Information Security Management
+Critical Security Control #18: Application Software Security,"SA-13: Trustworthiness
+SA-15: Development Process, Standards, and Tools
+SA-16: Developer-Provided Training
+SA-17: Developer Security Architecture and Design
+SA-20: Customized Development of Critical Components
+SA-21: Developer Screening
+SC-39: Process Isolation
+SI-10: Information Input Validation
+SI-11: Error Handling
+SI-15: Information Output Filtering
+SI-16: Memory Protection",PR.DS-7,VUL: Vulnerability Management,"A.9.4.5
+A.12.1.4
+A.14.2.1
+A.14.2.6 - A.14.2.8","A.10.1.4
+A.12.2.1
+A.12.2.4
+A.12.5.2
+A.12.5.5",Training,24,,,,SQL Injection,"6.3
+6.5 - 6.7",,"Application Security
+Software Development & Acquisition","APO13: Manage Security
+DSS05: Manage Security Services",,,,"AIS-01
+AIS-03
+AIS-04
+CCC-01 - CCC-03
+IVS-08",,Information Security Management
+Critical Security Control #19: Incident Response and Management,"IR-1: Incident Response Policy and Procedures
+IR-2: Incident Response Training
+IR-3: Incident Response Testing
+IR-4: Incident Handling
+IR-5: Incident Monitoring
+IR-6: Incident Reporting
+IR-7: Incident Response Assistance
+IR-8: Incident Response Plan
+IR-10: Integrated Information Security Analysis Team","PR.IP-10
+DE.AE-2
+DE.AE-4
+DE.AE-5
+DE.CM-1-7
+RS.RP-1
+RS.CO-1-5
+RS.AN-1-4
+RS.MI-1-2
+RS.IM-1-2
+RC.RP-1
+RC.IM-1-2
+RC.CO-1-3","Plan for Events
+Respond to Events","A.6.1.3
+A.7.2.1
+A.16.1.2
+A.16.1.4 - A.16.1.7","A.6.1.6
+A.8.2.1
+A.13.1.1
+A.13.2.1 - A.13.2.2",Incident Response and Disaster Recovery Plans,,,Incident Management,,,12.10,164.308(a)(6): Security Incident Procedures - Response and Reporting R,,"APO13: Manage Security
+DSS05: Manage Security Services
+DSS02: Manage Service Requests and Incidents","CIP-008-5 R1
+CIP-008-5 R2
+CIP-008-5 R3","CIP-008-4 R1
+CIP-008-4 R2","CIP-008-3 R1
+CIP-008-3 R2",SEF-01 - SEF-05,9: Incident Response,"Information Security Management
+Incident Management"
+Critical Security Control #20: Penetration Tests and Red Team Exercises,"CA-2: Security Assessments
+CA-5: Plan of Action and Milestones
+CA-6: Security Authorization
+CA-8: Penetration Testing
+RA-6: Technical Surveillance Countermeasures Survey
+SI-6: Security Function Verification
+PM-6: Information Security Measures of Performance
+PM-14: Testing, Training, & Monitoring",,,"A.14.2.8
+A.18.2.1
+A.18.2.3","A.6.1.8
+A.15.2.2
+A.15.3.1",Audit Strategy,,,,,,11.3,,,"APO13: Manage Security
+DSS05: Manage Security Services
+MEA02: Monitor, Evaluate and Assess the System of Internal Control",,,,,,Information Security Management

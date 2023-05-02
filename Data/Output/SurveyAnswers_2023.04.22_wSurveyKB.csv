@@ -1,0 +1,862 @@
+question,context,answer
+Company name,"1. Company/Business name Signifi Solutions Inc.
+2. How long has the company been in business? 15 Years
+3. Are there any material claims or judgments against the company? No
+4. Is any of your company's software development outsourced? No
+5. Are the data center(s) used exclusively by your company, or are some shared? No, some or all of the data center(s) are shared with other companies
+",Signifi Solutions Inc.
+Responder name,"1. Company/Business name Signifi Solutions Inc.
+2. Is there a formal Incident Response Plan? Yes
+3. Is there a specific Recovery Time Objective (RTO)? Yes, RTO indicated in comment box
+Depending on the hosting option, from 5 minutes to 24 hours.
+4. How long has the company been in business? 15 Years
+5. Is remote access permitted? Yes
+",N/A
+Responder title,"1. Is there a formal Incident Response Plan? Yes
+2. Company/Business name Signifi Solutions Inc.
+3. Is there a specific Recovery Time Objective (RTO)? Yes, RTO indicated in comment box
+Depending on the hosting option, from 5 minutes to 24 hours.
+4. Is remote access permitted? Yes
+5. Has an independent third party evaluated the Business Resiliency Program within the past 12 months? Yes
+",N/A
+Responder email address,"1. Company/Business name Signifi Solutions Inc.
+2. Where is the application/service being hosted? Data will be hosted in a Qualcomm datacenter
+3. Are electronic systems used to transmit, process or store data? Yes
+4. Is remote access permitted? Yes
+5. Do you share data with, or enable direct access by, any third-party (e.g. subcontractors, hosting providers)? Yes
+",N/A
+"Do you have a dedicated security authority for the organization, e.g. CISO?","1. Is there a information security function responsible for security initiatives? The Director of Technology - head of IT - is also the Chief Security Officer.
+2. Is there an information security policy that has been approved by management, communicated to appropriate constituents and an owner to maintain and review the policy? Yes
+3. Have the information security policies been reviewed in the last 12 months? Yes
+4. Is there a security awareness training program for all personnel (employees and consultants)? Yes
+5. Does your company follow a formal OS (Unix, Linux, Windows) hardening standards? Yes
+",No. The Director of Technology is also the Chief Security Officer.
+Is senior management involved in your cyber risk management ?,"1. Have the information security policies been reviewed in the last 12 months? Yes
+2. Is there a formal process for appropriate management knowingly and objectively accepting risks and approving action plans? Yes
+3. Is there a risk assessment program that has been approved by management, communicated to appropriate constituents and has an owner owner assigned to maintain and review the program? Yes
+4. Do you have a vulnerability management program (e.g. vulnerability scans, penetration tests, patch management, etc.)? Yes
+5. Is there an information security policy that has been approved by management, communicated to appropriate constituents and an owner to maintain and review the policy? Yes
+",N/A
+Do you have documented security policy?,"1. Are all security configuration standards documented? Yes
+2. Is there an information security policy that has been approved by management, communicated to appropriate constituents and an owner to maintain and review the policy? Yes
+3. Have the information security policies been reviewed in the last 12 months? Yes
+4. Do you have a written policy that lists the physical security requirements for data centers? No
+The data center lists the physical security measures, e.g. https://us.ovhcloud.com/about/company/security
+5. Does your company have a written set of guidelines for the configuration, maintenance and use of your network? No
+",Yes.
+"Do you determine, prioritize, and treat cybersecurity risks related to your operation?","1. Do you have a vulnerability management program (e.g. vulnerability scans, penetration tests, patch management, etc.)? Yes
+2. Have the information security policies been reviewed in the last 12 months? Yes
+3. Does your company perform a secure code review at least annually? Yes
+4. Is there an information security policy that has been approved by management, communicated to appropriate constituents and an owner to maintain and review the policy? Yes
+5. Is there a monitoring and alerting mechanism in place on your network? Yes
+",Yes.
+"Do you have third party assessments or certifications, e.g. ISO 9001:2015, ISO27001, SOC, CMMI for the organization?","1. Describe how you perform security assessments of third party companies with which you share data (subcontractors, hosting providers, etc.)? We are asking for a SOC 2 or equivalent certification. We are reviewing the contracts.
+2. Is there an internal audit function or a third party that conducts assessments of the systems and data? Yes
+Internal audit.
+3. Are the data center(s) categorized in tiers or certified in some way (e.g.,TIA-942, ISO 27001, SSAE-16, etc.)? Yes, we can provide the data center SOC 2 certificate on request.
+4. Do you have a vulnerability management program (e.g. vulnerability scans, penetration tests, patch management, etc.)? Yes
+5. Do you have an penetration test assessment (e.g.,executive summary, full report, etc.) which follows the OWASP guidelines and performed within the last year? Yes
+","Yes, we have SOC 2 or equivalent certification for our organization."
+"For your most recent independent third-party security program assessment: Were all identified Critical, High, and Medium risk findings/non-conformances/issues remediated? (If no, explain plans to address.)","1. Has an independent third party evaluated the Business Resiliency Program within the past 12 months? Yes
+2. Do you have a vulnerability management program (e.g. vulnerability scans, penetration tests, patch management, etc.)? Yes
+3. Is there a risk assessment program that has been approved by management, communicated to appropriate constituents and has an owner owner assigned to maintain and review the program? Yes
+4. Describe how you perform security assessments of third party companies with which you share data (subcontractors, hosting providers, etc.)? We are asking for a SOC 2 or equivalent certification. We are reviewing the contracts.
+5. Do you have an penetration test assessment (e.g.,executive summary, full report, etc.) which follows the OWASP guidelines and performed within the last year? Yes
+",Yes.
+"Do you have a documented, and tested, business continuity/disaster recovery plan?","1. Are formal business continuity procedures developed and documented? Yes
+2. Is there a periodic (at least annual) review of your Business Resiliency Program? Yes
+3. Is there an established Business Resiliency program that has been approved by management and communicated to appropriate constituents? Yes
+4. Does the company have a documented Incident Management program? Yes
+5. Has an independent third party evaluated the Business Resiliency Program within the past 12 months? Yes
+",Yes.
+What is your RTO (recovery time objective)?,"1. Is there a specific Recovery Time Objective (RTO)? Yes, RTO indicated in comment box
+Depending on the hosting option, from 5 minutes to 24 hours.
+2. Is there a periodic (at least annual) review of your Business Resiliency Program? Yes
+3. Does your company enforce session timeouts or screen lockouts upon 15 minutes or less of inactivity? Yes
+4. Is there an established Business Resiliency program that has been approved by management and communicated to appropriate constituents? Yes
+5. Has an independent third party evaluated the Business Resiliency Program within the past 12 months? Yes
+","The RTO varies depending on the hosting option, ranging from 5 minutes to 24 hours."
+What is your RPO (recovery point objective)?,"1. Is there a specific Recovery Time Objective (RTO)? Yes, RTO indicated in comment box
+Depending on the hosting option, from 5 minutes to 24 hours.
+2. Is there a periodic (at least annual) review of your Business Resiliency Program? Yes
+3. Are your company's system backups stored at an offsite location? Yes
+4. Is there a formal Incident Response Plan? Yes
+5. Does the offsite backup storage location have the same or stronger security controls as your primary location? Yes
+",N/A
+Do you have an documented incident response plan for the organization?,"1. Is there a formal Incident Response Plan? Yes
+2. Does the company have a documented Incident Management program? Yes
+3. Are formal business continuity procedures developed and documented? Yes
+4. Is there an established Business Resiliency program that has been approved by management and communicated to appropriate constituents? Yes
+5. Is there a periodic (at least annual) review of your Business Resiliency Program? Yes
+",Yes.
+"Is a process in place to wipe data from hardware before it is disposed or reused in a way that meets required compliance sets. (e.g. degaussing, cryptographic wiping, disk shredding, etc.)","1. How does your company secure sensitive information on removable media (e.g., USB drive, external hard drives, DVDs, etc.)? Policy restricting sensitive data on media.
+Controls restricting data from being copied to removable media.
+Controls enforcing encryption on removable media
+No controls in place
+We are working on implementing controls for encryption of removable media. Policy does not allow users to copy customer data to their workstations and removable media.
+2. Is there a process to grant and approve access to systems transmitting, processing or storing system and data? Yes
+3. Is there a removable media (CDs, DVDs, tapes, disk drives) policy or program that has been approved by management, communicated to appropriate constituents, and an owner to maintain and review the policy? Yes
+4. Are electronic systems used to transmit, process or store data? Yes
+5. Is there a password policy for systems that transmit, process or store scoped systems data that has been approved by management, communicated to constituents, and enforced on all platforms? Yes
+",Yes.
+What is your PCI DSS compliance level?,"1. Describe how you perform security assessments of third party companies with which you share data (subcontractors, hosting providers, etc.)? We are asking for a SOC 2 or equivalent certification. We are reviewing the contracts.
+2. Is there a disciplinary process for non-compliance with information security policies? Yes
+3. Have any of your third party vendors suffered a data loss or security breach within the last 3 years? No
+4. Have the information security policies been reviewed in the last 12 months? Yes
+5. Does your company perform a secure code review at least annually? Yes
+",N/A
+Do you use a set of detailed practices for your Customer Support activities e.g. ITIL?,"1. Does your company follow a formal Software Development Life Cycle (SDLC) process? Yes
+2. Does the company have a documented Incident Management program? Yes
+3. Does your company have a written set of guidelines for the configuration, maintenance and use of your network? No
+4. Are there policies and procedures to ensure compliance with applicable legislative, regulatory and contractual requirements to address intellectual property rights on business processes or information technology software products? Yes
+5. Are formal business continuity procedures developed and documented? Yes
+",N/A
+"Are all entrances protected by security officer, receptionist or electronic access control system?","1. Are reasonable physical security and environmental controls present in the office buildings and data center? Yes
+2. Select the security controls that are in place at all of your data centers: (Check all that apply) Guards? Yes
+Mantrap? No
+Motion detectors? No 
+Alarms? Yes
+CCTV? Yes
+Electronic access control (e.g., swipe cards) ? Yes
+Perimeter security ? Yes
+UPS batteries? Yes
+Backup generators? Yes
+Signifi does not have access to and does not control the data center physical security.
+3. Are Intrusion detection/prevention systems employed in all sensitive network zones and wherever firewalls are enabled? Yes
+4. Are electronic systems used to transmit, process or store data? Yes
+5. Is there a password policy for systems that transmit, process or store scoped systems data that has been approved by management, communicated to constituents, and enforced on all platforms? Yes
+",Yes.
+Are all visitors required to provide proof of ID and sign in before entry to internal area?,"1. Are all personnel required to sign an Acceptable Use Policy? Yes
+2. Are all personnels (employees, contractors) required to sign confidentiality agreements to protect customer information, as a condition of employment? Yes
+3. Are reasonable physical security and environmental controls present in the office buildings and data center? Yes
+4. Is there a security awareness training program for all personnel (employees and consultants)? Yes
+5. Are user access rights reviewed at least annually? Yes
+",Yes.
+Is access to restricted areas logged?,"1. Are operating system and application logs relevant to investigation of incidents protected against modification, deletion, and/or inappropriate access? Yes
+2. Are privileged user access rights reviewed at least quarterly? Yes
+3. Is remote access permitted? Yes
+4. Are user access rights reviewed at least annually? Yes
+5. Is there a process to grant and approve access to systems transmitting, processing or storing system and data? Yes
+",N/A
+Do all fence lines and complete building perimeters have CCTV coverage?,"1. Are Intrusion detection/prevention systems employed in all sensitive network zones and wherever firewalls are enabled? Yes
+2. Are reasonable physical security and environmental controls present in the office buildings and data center? Yes
+3. Select the security controls that are in place at all of your data centers: (Check all that apply) Guards? Yes
+Mantrap? No
+Motion detectors? No 
+Alarms? Yes
+CCTV? Yes
+Electronic access control (e.g., swipe cards) ? Yes
+Perimeter security ? Yes
+UPS batteries? Yes
+Backup generators? Yes
+Signifi does not have access to and does not control the data center physical security.
+4. Is there a monitoring and alerting mechanism in place on your network? Yes
+5. Are all security configuration standards documented? Yes
+",Yes.
+Where is the data located and to what countries is it transferred?,"1. Does the system and data reside in a data center and/or a cloud service? Data Center
+2. Are business information systems used to transmit, process or store data? Yes
+3. Are electronic systems used to transmit, process or store data? Yes
+4. Where is the application/service being hosted? Data will be hosted in a Qualcomm datacenter
+5. Is there a process to grant and approve access to systems transmitting, processing or storing system and data? Yes
+",The data is located in a data center and there is no information provided about its transfer to other countries.
+"If (EU/California, etc.) then does your company have a documented compliance program to meet the requirements of these regulations?","1. Are there policies and procedures to ensure compliance with applicable legislative, regulatory and contractual requirements to address intellectual property rights on business processes or information technology software products? Yes
+2. Does the company have a documented Incident Management program? Yes
+3. Is there an internal compliance and ethics reporting mechanism and training program for employees to report compliance issues? Yes
+4. Is there an established Business Resiliency program that has been approved by management and communicated to appropriate constituents? Yes
+5. Is there an risk management, compliance department, or other management oversight unit with responsibility for identifying and tracking resolution of outstanding regulatory issues? Yes
+",Yes.
+"If EU, what data transfer mechanisms does the company utilize. (BCR, Privacy Shield, standard contractual clauses)","1. The third parties with whom you share or enable direct access to data are: (check all that apply) Subjected to a background check? yes
+Bound by the same legal requirements for privacy, data protection, and information security as your company? yes
+Required to obtain your consent before using the data? yes
+Required to notify your company and/or client in the event of a data breach? yes
+Required to assist your company in making disclosures or notifications in the event of a data breach or data subject inquiry? yes
+Required to give privacy and data protection training and education to all subcontractor employees with access to data? Required to submit to audits by your company and/or to provide annual privacy, data protection, and/or data security audit reports? No
+Required to destroy data upon request by either you or client?
+2. Are there legal agreements (i.e. contracts) in place with the third parties that addresses liability in the event of a data breach? No
+3. Is there a process to grant and approve access to systems transmitting, processing or storing system and data? Yes
+4. Are there policies and procedures to ensure compliance with applicable legislative, regulatory and contractual requirements to address intellectual property rights on business processes or information technology software products? Yes
+5. Do you share data with, or enable direct access by, any third-party (e.g. subcontractors, hosting providers)? Yes
+",N/A
+"If EU, do you comply with the EU cookie law?","1. Are there policies and procedures to ensure compliance with applicable legislative, regulatory and contractual requirements to address intellectual property rights on business processes or information technology software products? Yes
+2. The third parties with whom you share or enable direct access to data are: (check all that apply) Subjected to a background check? yes
+Bound by the same legal requirements for privacy, data protection, and information security as your company? yes
+Required to obtain your consent before using the data? yes
+Required to notify your company and/or client in the event of a data breach? yes
+Required to assist your company in making disclosures or notifications in the event of a data breach or data subject inquiry? yes
+Required to give privacy and data protection training and education to all subcontractor employees with access to data? Required to submit to audits by your company and/or to provide annual privacy, data protection, and/or data security audit reports? No
+Required to destroy data upon request by either you or client?
+3. Is there a disciplinary process for non-compliance with information security policies? Yes
+4. Are all personnel required to sign an Acceptable Use Policy? Yes
+5. Do you share data with, or enable direct access by, any third-party (e.g. subcontractors, hosting providers)? Yes
+",N/A
+Does the company have a procedure on how it would respond to a breach and how/when would they notify MSI?,"1. Does the company have a documented Incident Management program? Yes
+2. Is there a disciplinary process for non-compliance with information security policies? Yes
+3. Is there a formal Incident Response Plan? Yes
+4. Are there legal agreements (i.e. contracts) in place with the third parties that addresses liability in the event of a data breach? No
+5. Is there an information security policy that has been approved by management, communicated to appropriate constituents and an owner to maintain and review the policy? Yes
+",N/A
+Can company respond in a timely manner (based on regulations) to data subject access requests and have a process in place to notify MSI if they receive a request that involves MSI data?,"1. Is there a process to grant and approve access to systems transmitting, processing or storing system and data? Yes
+2. The third parties with whom you share or enable direct access to data are: (check all that apply) Subjected to a background check? yes
+Bound by the same legal requirements for privacy, data protection, and information security as your company? yes
+Required to obtain your consent before using the data? yes
+Required to notify your company and/or client in the event of a data breach? yes
+Required to assist your company in making disclosures or notifications in the event of a data breach or data subject inquiry? yes
+Required to give privacy and data protection training and education to all subcontractor employees with access to data? Required to submit to audits by your company and/or to provide annual privacy, data protection, and/or data security audit reports? No
+Required to destroy data upon request by either you or client?
+3. Is there a disciplinary process for non-compliance with information security policies? Yes
+4. Are there policies and procedures to ensure compliance with applicable legislative, regulatory and contractual requirements to address intellectual property rights on business processes or information technology software products? Yes
+5. Does the company have a documented Incident Management program? Yes
+",N/A
+Does the company have a procedure to delete MSI data at the termination of the contract/relationship with MSI?,"1. Are documented procedures followed to govern change in employment and/or termination including the timely revocation of access and return of assets? Yes
+2. Does the company have a documented Incident Management program? Yes
+3. Are there legal agreements (i.e. contracts) in place with the third parties that addresses liability in the event of a data breach? No
+4. Are there policies and procedures to ensure compliance with applicable legislative, regulatory and contractual requirements to address intellectual property rights on business processes or information technology software products? Yes
+5. Have any of your third party vendors suffered a data loss or security breach within the last 3 years? No
+",N/A
+"If required in contract, does the company have procedures in place to ensure MSI data is not shared with any parties beyond the terms detailed in the applicable contract?","1. Are there legal agreements (i.e. contracts) in place with the third parties that addresses liability in the event of a data breach? No
+2. The third parties with whom you share or enable direct access to data are: (check all that apply) Subjected to a background check? yes
+Bound by the same legal requirements for privacy, data protection, and information security as your company? yes
+Required to obtain your consent before using the data? yes
+Required to notify your company and/or client in the event of a data breach? yes
+Required to assist your company in making disclosures or notifications in the event of a data breach or data subject inquiry? yes
+Required to give privacy and data protection training and education to all subcontractor employees with access to data? Required to submit to audits by your company and/or to provide annual privacy, data protection, and/or data security audit reports? No
+Required to destroy data upon request by either you or client?
+3. Are there policies and procedures to ensure compliance with applicable legislative, regulatory and contractual requirements to address intellectual property rights on business processes or information technology software products? Yes
+4. Do you share data with, or enable direct access by, any third-party (e.g. subcontractors, hosting providers)? Yes
+5. Does management require the use of confidentiality or non-disclosure agreements for all third parties? Yes
+",N/A
+Do you support litigation holds (freeze of MSI data from a specific point in time)?,"1. Are operating system and application logs relevant to investigation of incidents protected against modification, deletion, and/or inappropriate access? Yes
+2. Are there legal agreements (i.e. contracts) in place with the third parties that addresses liability in the event of a data breach? No
+3. Have any of your third party vendors suffered a data loss or security breach within the last 3 years? No
+4. Does the company have a documented Incident Management program? Yes
+5. Are there policies and procedures to ensure compliance with applicable legislative, regulatory and contractual requirements to address intellectual property rights on business processes or information technology software products? Yes
+",N/A
+Does your company have a documented privacy program?,"1. Does the company have a documented Incident Management program? Yes
+2. Does your company have a written set of guidelines for the configuration, maintenance and use of your network? No
+3. Does your company perform a secure code review at least annually? Yes
+4. Do you have a vulnerability management program (e.g. vulnerability scans, penetration tests, patch management, etc.)? Yes
+5. Are there policies and procedures to ensure compliance with applicable legislative, regulatory and contractual requirements to address intellectual property rights on business processes or information technology software products? Yes
+",N/A
+Do you have dedicated or partially dedicated privacy personnel at your company?,"1. The third parties with whom you share or enable direct access to data are: (check all that apply) Subjected to a background check? yes
+Bound by the same legal requirements for privacy, data protection, and information security as your company? yes
+Required to obtain your consent before using the data? yes
+Required to notify your company and/or client in the event of a data breach? yes
+Required to assist your company in making disclosures or notifications in the event of a data breach or data subject inquiry? yes
+Required to give privacy and data protection training and education to all subcontractor employees with access to data? Required to submit to audits by your company and/or to provide annual privacy, data protection, and/or data security audit reports? No
+Required to destroy data upon request by either you or client?
+2. Are all personnels (employees, contractors) required to sign confidentiality agreements to protect customer information, as a condition of employment? Yes
+3. Is management of your network (or part thereof) outsourced? No
+4. Do you share data with, or enable direct access by, any third-party (e.g. subcontractors, hosting providers)? Yes
+5. Is there a security awareness training program for all personnel (employees and consultants)? Yes
+",Yes.
+Do you have a documented training and awareness program for employees that covers security and privacy?,"1. Is there a security awareness training program for all personnel (employees and consultants)? Yes
+2. Is there an information security policy that has been approved by management, communicated to appropriate constituents and an owner to maintain and review the policy? Yes
+3. Is there an internal compliance and ethics reporting mechanism and training program for employees to report compliance issues? Yes
+4. Does the company have a documented Incident Management program? Yes
+5. Is there a disciplinary process for non-compliance with information security policies? Yes
+",Yes.
+Do you have a documented training program for secure design and development?,"1. Is there a formal, documented exercise and testing program in place? No
+2. Does your company perform a secure code review at least annually? Yes
+3. Is there a security awareness training program for all personnel (employees and consultants)? Yes
+4. Does your company follow a formal Software Development Life Cycle (SDLC) process? Yes
+5. Are all security configuration standards documented? Yes
+",N/A
+Do you perform background checks on employees and contractors?,"1. Is a background screening /verification (as allowed by local laws, regulations, ethics and contractual constraints) performed for personnels (employees, contractors) prior to allowing access to systems and data? (Check all that apply) Criminial ? yes
+Credit? No
+Academic? No
+Reference? Yes
+Resume or curriculum vitae? Yes
+Drug Screening? No
+We perform criminal background checks for persons with access to customer data.
+2. Are all personnels (employees, contractors) required to sign confidentiality agreements to protect customer information, as a condition of employment? Yes
+3. Describe how you perform security assessments of third party companies with which you share data (subcontractors, hosting providers, etc.)? We are asking for a SOC 2 or equivalent certification. We are reviewing the contracts.
+4. Does your company perform a secure code review at least annually? Yes
+5. Is there a security awareness training program for all personnel (employees and consultants)? Yes
+","Yes, we perform criminal background checks for persons with access to customer data."
+Is a disciplinary process in place for employees who knowingly deviate from policies?,"1. Is there a disciplinary process for non-compliance with information security policies? Yes
+2. Are documented procedures followed to govern change in employment and/or termination including the timely revocation of access and return of assets? Yes
+3. Is there a formal process for appropriate management knowingly and objectively accepting risks and approving action plans? Yes
+4. Is there an internal compliance and ethics reporting mechanism and training program for employees to report compliance issues? Yes
+5. Is there a process to approve exceptions to the information security policy? No
+",Yes.
+Do you have a process to assess and manage supply chain risk?,"1. Is there a formal process for appropriate management knowingly and objectively accepting risks and approving action plans? Yes
+2. Is there a risk assessment program that has been approved by management, communicated to appropriate constituents and has an owner owner assigned to maintain and review the program? Yes
+3. Is there a documented vendor management process in place for selection and oversight of third party vendors? (Check all that apply) Approval by management? yes 
+Annual review?No
+Review of subcontractor's vendor management policy & procedures?Yes
+Other?No
+4. Is there a periodic (at least annual) review of your Business Resiliency Program? Yes
+5. Do you have a vulnerability management program (e.g. vulnerability scans, penetration tests, patch management, etc.)? Yes
+",N/A
+Do you have any Chinese or Russian based suppliers?,"1. Does your company develop application components that Qualcomm uses (or will use)? Yes
+2. Is any of your company's software development outsourced? No
+3. Are there any dependencies on critical third party service providers? Yes
+4. Do you share data with, or enable direct access by, any third-party (e.g. subcontractors, hosting providers)? Yes
+5. Have any of your third party vendors suffered a data loss or security breach within the last 3 years? No
+",N/A
+"Do you ensure that your 3rd party partners, vendors, contractors, and suppliers adhere to your Security and Privacy policies?","1. Have any of your third party vendors suffered a data loss or security breach within the last 3 years? No
+2. The third parties with whom you share or enable direct access to data are: (check all that apply) Subjected to a background check? yes
+Bound by the same legal requirements for privacy, data protection, and information security as your company? yes
+Required to obtain your consent before using the data? yes
+Required to notify your company and/or client in the event of a data breach? yes
+Required to assist your company in making disclosures or notifications in the event of a data breach or data subject inquiry? yes
+Required to give privacy and data protection training and education to all subcontractor employees with access to data? Required to submit to audits by your company and/or to provide annual privacy, data protection, and/or data security audit reports? No
+Required to destroy data upon request by either you or client?
+3. Describe how you perform security assessments of third party companies with which you share data (subcontractors, hosting providers, etc.)? We are asking for a SOC 2 or equivalent certification. We are reviewing the contracts.
+4. Do you share data with, or enable direct access by, any third-party (e.g. subcontractors, hosting providers)? Yes
+5. Are there legal agreements (i.e. contracts) in place with the third parties that addresses liability in the event of a data breach? No
+",Yes.
+Do you establish Quality criteria for your 3rd Party Vendor product before releasing to production?,"1. Is there a documented vendor management process in place for selection and oversight of third party vendors? (Check all that apply) Approval by management? yes 
+Annual review?No
+Review of subcontractor's vendor management policy & procedures?Yes
+Other?No
+2. Are there any dependencies on critical third party service providers? Yes
+3. Does your company follow a formal Software Development Life Cycle (SDLC) process? Yes
+4. Does your company develop application components that Qualcomm uses (or will use)? Yes
+5. Is any of your company's software development outsourced? No
+",N/A
+Are Service and Support plans established for your 3rd Party Vendors?,"1. Are there any dependencies on critical third party service providers? Yes
+2. Have any of your third party vendors suffered a data loss or security breach within the last 3 years? No
+3. Are thrid party services used to keep up to date with the latest vulnerabilities? Yes
+4. Do you share data with, or enable direct access by, any third-party (e.g. subcontractors, hosting providers)? Yes
+5. Is there a documented vendor management process in place for selection and oversight of third party vendors? (Check all that apply) Approval by management? yes 
+Annual review?No
+Review of subcontractor's vendor management policy & procedures?Yes
+Other?No
+",N/A
+"Are performance measures tracked for your 3rd Party Vendors e.g. escaped defects, resolution times?","1. Have any of your third party vendors suffered a data loss or security breach within the last 3 years? No
+2. Is there a documented vendor management process in place for selection and oversight of third party vendors? (Check all that apply) Approval by management? yes 
+Annual review?No
+Review of subcontractor's vendor management policy & procedures?Yes
+Other?No
+3. Are thrid party services used to keep up to date with the latest vulnerabilities? Yes
+4. Are there any dependencies on critical third party service providers? Yes
+5. Do you have a vulnerability management program (e.g. vulnerability scans, penetration tests, patch management, etc.)? Yes
+",N/A
+Do you have a documented Open Source Software Policy?,"1. Are there policies and procedures to ensure compliance with applicable legislative, regulatory and contractual requirements to address intellectual property rights on business processes or information technology software products? Yes
+2. Does your company follow a formal Software Development Life Cycle (SDLC) process? Yes
+3. Does your company have a written set of guidelines for the configuration, maintenance and use of your network? No
+4. Is there an information security policy that has been approved by management, communicated to appropriate constituents and an owner to maintain and review the policy? Yes
+5. Does your company follow a formal OS (Unix, Linux, Windows) hardening standards? Yes
+",N/A
+Do you perform Open Source Software scans?,"1. Do you have a vulnerability management program (e.g. vulnerability scans, penetration tests, patch management, etc.)? Yes
+2. Does your company perform a secure code review at least annually? Yes
+3. Do you have an penetration test assessment (e.g.,executive summary, full report, etc.) which follows the OWASP guidelines and performed within the last year? Yes
+4. Are vulnerability assessments or scans on internal or external network connections performed at least quarterly? Yes
+5. Are vulnerability assessements, scans or penetration tests performed by trained and experienced personnel or company? Yes
+",N/A
+Is the network segregated?,"1. Is management of your network (or part thereof) outsourced? No
+2. Does your company have a written set of guidelines for the configuration, maintenance and use of your network? No
+3. Does your company allow wireless networks access to private aspects of your infrastructure (i.e., Wi-Fi networks, excluding networks that only allow guests access to the Internet)? Yes, but we have implemented 802.1x to authenticate workstations.
+4. Is there a monitoring and alerting mechanism in place on your network? Yes
+5. Are Intrusion detection/prevention systems employed in all sensitive network zones and wherever firewalls are enabled? Yes
+",N/A
+Are Intrusion Protection systems deployed?,"1. Are Intrusion detection/prevention systems employed in all sensitive network zones and wherever firewalls are enabled? Yes
+2. Is there a monitoring and alerting mechanism in place on your network? Yes
+3. Are reasonable physical security and environmental controls present in the office buildings and data center? Yes
+4. Does your company have a host-based firewall solution deployed and enabled on all computer systems? Yes-Servers only
+5. Is there a password policy for systems that transmit, process or store scoped systems data that has been approved by management, communicated to constituents, and enforced on all platforms? Yes
+",Yes.
+Are Intrusion Detection systems deployed?,"1. Are Intrusion detection/prevention systems employed in all sensitive network zones and wherever firewalls are enabled? Yes
+2. Is there a monitoring and alerting mechanism in place on your network? Yes
+3. Does your company have a host-based firewall solution deployed and enabled on all computer systems? Yes-Servers only
+4. Are thrid party services used to keep up to date with the latest vulnerabilities? Yes
+5. Is there a formal Incident Response Plan? Yes
+",Yes.
+Is endpoint protection deployed?,"1. Are Intrusion detection/prevention systems employed in all sensitive network zones and wherever firewalls are enabled? Yes
+2. Is there a monitoring and alerting mechanism in place on your network? Yes
+3. Does your company have a host-based firewall solution deployed and enabled on all computer systems? Yes-Servers only
+4. Are all available high-risk network security patches applied and verified at least monthly? Yes
+5. Are all available high-risk security patches applied and verified on all server platforms? Yes
+",Yes.
+Is the network monitored and events logged?,"1. Is there a monitoring and alerting mechanism in place on your network? Yes
+2. Are operating system and application logs relevant to investigation of incidents protected against modification, deletion, and/or inappropriate access? Yes
+3. Are Intrusion detection/prevention systems employed in all sensitive network zones and wherever firewalls are enabled? Yes
+4. Does the company have a documented Incident Management program? Yes
+5. Are all available high-risk network security patches applied and verified at least monthly? Yes
+",Yes.
+Are the logs encrypted and protected?,"1. Are operating system and application logs relevant to investigation of incidents protected against modification, deletion, and/or inappropriate access? Yes
+2. Are encrypted communications required for all remote connections? Yes
+3. Is HTTPS enabled for any web applications used as part of the service that allow users to log in or contain anything but public data? Yes
+4. What measures are taken to ensure safe transport of backups? (Check all that apply) Secured transport
+Encrypted backup tapes
+Tamper-proof seals on tape containers
+Documentation and receipt of tape transfer
+None
+N/A, stored in the cloud
+Backups are encrypted.
+5. Does your company require whole disk encryption on laptops? Yes-on all Laptops
+","Yes, logs are protected against modification, deletion, and/or inappropriate access."
+Is data in transit and at rest encrypted within your network?,"1. How does your company use encryption to secure data Encryption in transit outside the network
+Encryption at rest and in transit within the network
+Both (Encryption in transit and at rest within & outside the network)
+No, compensating control in place (explained in comment box)
+2. Are encrypted communications required for all remote connections? Yes
+3. Are End User Devices (Desktops, Laptops, Tablets) used for transmitting, processing or storing data? Yes
+4. Are business information systems used to transmit, process or store data? Yes
+5. Are electronic systems used to transmit, process or store data? Yes
+",Yes.
+Is remote access to the network protected (e.g. VPN),"1. Does your company allow remote (i.e. VPN) access to remotely administrator your network? Yes
+2. Is remote access permitted? Yes
+3. Is two factor authentication required for remote access? Yes
+4. Are encrypted communications required for all remote connections? Yes
+5. Does the company require two-factor authentication for remote administration of IT assets and administrative access to the firewall? No
+",Yes.
+"Is multifactor authentication used, at a minimum for privileged accounts?","1. Is two factor authentication required for remote access? Yes
+2. Are privileged user access rights reviewed at least quarterly? Yes
+3. Does the company require two-factor authentication for remote administration of IT assets and administrative access to the firewall? No
+4. Is there a password policy for systems that transmit, process or store scoped systems data that has been approved by management, communicated to constituents, and enforced on all platforms? Yes
+5. Are user access rights reviewed at least annually? Yes
+",N/A
+Is the principle of least privilege used for account permissions?,"1. Are privileged user access rights reviewed at least quarterly? Yes
+2. Are user access rights reviewed at least annually? Yes
+3. Is there a password policy for systems that transmit, process or store scoped systems data that has been approved by management, communicated to constituents, and enforced on all platforms? Yes
+4. Is there a process to grant and approve access to systems transmitting, processing or storing system and data? Yes
+5. Are documented procedures followed to govern change in employment and/or termination including the timely revocation of access and return of assets? Yes
+",Yes.
+How often are backup taken?,"1. Are your company's system backups stored at an offsite location? Yes
+2. Does the offsite backup storage location have the same or stronger security controls as your primary location? Yes
+3. Are BC/DR tests conducted periodically? Quarterly
+4. What measures are taken to ensure safe transport of backups? (Check all that apply) Secured transport
+Encrypted backup tapes
+Tamper-proof seals on tape containers
+Documentation and receipt of tape transfer
+None
+N/A, stored in the cloud
+Backups are encrypted.
+5. How often are the assessments performed? Annually
+","N/A, as the frequency of backups is not mentioned in the given context."
+Do you encrypt backups (tape or disk)?,"1. Does your company require whole disk encryption on laptops? Yes-on all Laptops
+2. What measures are taken to ensure safe transport of backups? (Check all that apply) Secured transport
+Encrypted backup tapes
+Tamper-proof seals on tape containers
+Documentation and receipt of tape transfer
+None
+N/A, stored in the cloud
+Backups are encrypted.
+3. Are your company's system backups stored at an offsite location? Yes
+4. How does your company secure sensitive information on removable media (e.g., USB drive, external hard drives, DVDs, etc.)? Policy restricting sensitive data on media.
+Controls restricting data from being copied to removable media.
+Controls enforcing encryption on removable media
+No controls in place
+We are working on implementing controls for encryption of removable media. Policy does not allow users to copy customer data to their workstations and removable media.
+5. How does your company use encryption to secure data Encryption in transit outside the network
+Encryption at rest and in transit within the network
+Both (Encryption in transit and at rest within & outside the network)
+No, compensating control in place (explained in comment box)
+","Yes, backups are encrypted."
+Are copies of backups stored off network?,"1. Are your company's system backups stored at an offsite location? Yes
+2. Does the offsite backup storage location have the same or stronger security controls as your primary location? Yes
+3. Are remote users prevented from copying data to remote devices? No
+4. What measures are taken to ensure safe transport of backups? (Check all that apply) Secured transport
+Encrypted backup tapes
+Tamper-proof seals on tape containers
+Documentation and receipt of tape transfer
+None
+N/A, stored in the cloud
+Backups are encrypted.
+5. Is management of your network (or part thereof) outsourced? No
+",Yes.
+Are back-ups tested?,"1. Are your company's system backups stored at an offsite location? Yes
+2. Does the offsite backup storage location have the same or stronger security controls as your primary location? Yes
+3. Are all suppliers of critical hardware, network services and facility services involved in annual continuity and recovery tests? No, performed as standalone test
+4. What measures are taken to ensure safe transport of backups? (Check all that apply) Secured transport
+Encrypted backup tapes
+Tamper-proof seals on tape containers
+Documentation and receipt of tape transfer
+None
+N/A, stored in the cloud
+Backups are encrypted.
+5. Are formal business continuity procedures developed and documented? Yes
+","N/A, the answer to this question is not provided in the given context."
+How often is vulnerability scanning performed?,"1. Are vulnerability assessments or scans on internal or external network connections performed at least quarterly? Yes
+2. Vulnerability assessments, scans or penetration tests are performed on: External network connections only
+Third party penetration scans are done annually. Internal scans are done monthly.
+3. Are vulnerability assessements, scans or penetration tests performed by trained and experienced personnel or company? Yes
+4. Do you have a vulnerability management program (e.g. vulnerability scans, penetration tests, patch management, etc.)? Yes
+5. How often are the assessments performed? Annually
+",Annually.
+ How often are penetration tests performed for the in-scope systems?,"1. Vulnerability assessments, scans or penetration tests are performed on: External network connections only
+Third party penetration scans are done annually. Internal scans are done monthly.
+2. Are vulnerability assessements, scans or penetration tests performed by trained and experienced personnel or company? Yes
+3. Do you have an penetration test assessment (e.g.,executive summary, full report, etc.) which follows the OWASP guidelines and performed within the last year? Yes
+4. Are vulnerability assessments or scans on internal or external network connections performed at least quarterly? Yes
+5. Do you have a vulnerability management program (e.g. vulnerability scans, penetration tests, patch management, etc.)? Yes
+",Third party penetration scans are done annually. Internal scans are done monthly.
+"For your most recent penetration test, were all identified Critical, High, and Medium risk findings remediated? If no, explain plans to address.","1. Do you have an penetration test assessment (e.g.,executive summary, full report, etc.) which follows the OWASP guidelines and performed within the last year? Yes
+2. Are vulnerability assessements, scans or penetration tests performed by trained and experienced personnel or company? Yes
+3. Do you have a vulnerability management program (e.g. vulnerability scans, penetration tests, patch management, etc.)? Yes
+4. Are all available high-risk network security patches applied and verified at least monthly? Yes
+5. Are all available high-risk security patches applied and verified on all server platforms? Yes
+",N/A
+Do you participate in any industry cyber incident sharing?,"1. Have any of your third party vendors suffered a data loss or security breach within the last 3 years? No
+2. Does the company have a documented Incident Management program? Yes
+3. Is there a formal Incident Response Plan? Yes
+4. Has your company suffered a data loss or security breach within the last 3 years? No
+5. Do you share data with, or enable direct access by, any third-party (e.g. subcontractors, hosting providers)? Yes
+",N/A
+"Do you encrypt portable devices (laptops, mobile devices)?","1. Does your company require whole disk encryption on laptops? Yes-on all Laptops
+2. Are End User Devices (Desktops, Laptops, Tablets) used for transmitting, processing or storing data? Yes
+3. Are mobile devices used /allowed to access systems and data? No
+4. Are encrypted communications required for all remote connections? Yes
+5. How does your company secure sensitive information on removable media (e.g., USB drive, external hard drives, DVDs, etc.)? Policy restricting sensitive data on media.
+Controls restricting data from being copied to removable media.
+Controls enforcing encryption on removable media
+No controls in place
+We are working on implementing controls for encryption of removable media. Policy does not allow users to copy customer data to their workstations and removable media.
+","Yes, we encrypt portable devices including laptops."
+" Do you encrypt portable media (USB drives, tapes, etc.)","1. How does your company secure sensitive information on removable media (e.g., USB drive, external hard drives, DVDs, etc.)? Policy restricting sensitive data on media.
+Controls restricting data from being copied to removable media.
+Controls enforcing encryption on removable media
+No controls in place
+We are working on implementing controls for encryption of removable media. Policy does not allow users to copy customer data to their workstations and removable media.
+2. Does your company require whole disk encryption on laptops? Yes-on all Laptops
+3. What measures are taken to ensure safe transport of backups? (Check all that apply) Secured transport
+Encrypted backup tapes
+Tamper-proof seals on tape containers
+Documentation and receipt of tape transfer
+None
+N/A, stored in the cloud
+Backups are encrypted.
+4. Is there a removable media (CDs, DVDs, tapes, disk drives) policy or program that has been approved by management, communicated to appropriate constituents, and an owner to maintain and review the policy? Yes
+5. Are encrypted communications required for all remote connections? Yes
+","Yes, we enforce encryption on all portable media."
+Do you have policies and procedures established and mechanisms implemented for effective encryption key management?,"1. Is there an information security policy that has been approved by management, communicated to appropriate constituents and an owner to maintain and review the policy? Yes
+2. Is there a password policy for systems that transmit, process or store scoped systems data that has been approved by management, communicated to constituents, and enforced on all platforms? Yes
+3. Have the information security policies been reviewed in the last 12 months? Yes
+4. Are there policies and procedures to ensure compliance with applicable legislative, regulatory and contractual requirements to address intellectual property rights on business processes or information technology software products? Yes
+5. Does your company require whole disk encryption on laptops? Yes-on all Laptops
+",Yes.
+"Do you use strong, one-way cryptographic hash functions to store passwords?","1. Does your company perform a secure code review at least annually? Yes
+2. Is there a password policy for systems that transmit, process or store scoped systems data that has been approved by management, communicated to constituents, and enforced on all platforms? Yes
+3. Does your company require whole disk encryption on laptops? Yes-on all Laptops
+4. Are unique user IDs required for user authentication to applications, operating systems, database and network devices? Yes
+5. Does your company follow a formal OS (Unix, Linux, Windows) hardening standards? Yes
+",Yes.
+Do you use metrics to drive continuous improvement of your processes?,"1. Does your company follow a formal Software Development Life Cycle (SDLC) process? Yes
+2. Is there a monitoring and alerting mechanism in place on your network? Yes
+3. Do you have a vulnerability management program (e.g. vulnerability scans, penetration tests, patch management, etc.)? Yes
+4. Does your company perform a secure code review at least annually? Yes
+5. Is a Business Impact Analysis conducted periodically? Annually
+",Yes.
+"Do you use an industry standard tool for defect tracking e.g. JIRA, Azure DevOps, BugZilla?","1. Does your company follow a formal Software Development Life Cycle (SDLC) process? Yes
+2. Do you have a vulnerability management program (e.g. vulnerability scans, penetration tests, patch management, etc.)? Yes
+3. Is any of your company's software development outsourced? No
+4. Does the company have a documented Incident Management program? Yes
+5. Does your company develop application components that Qualcomm uses (or will use)? Yes
+",N/A
+you have resolution time goals established for release and post-release defects?,"1. Does your company follow a formal Software Development Life Cycle (SDLC) process? Yes
+2. Do you have an penetration test assessment (e.g.,executive summary, full report, etc.) which follows the OWASP guidelines and performed within the last year? Yes
+3. Is there a specific Recovery Time Objective (RTO)? Yes, RTO indicated in comment box
+Depending on the hosting option, from 5 minutes to 24 hours.
+4. Does your company perform a secure code review at least annually? Yes
+5. Does your company develop application components that Qualcomm uses (or will use)? Yes
+","Yes, resolution time goals are established for release and post-release defects."
+Are defect backlog thresholds established to help maintain product quality?,"1. Does your company perform a secure code review at least annually? Yes
+2. Are there policies and procedures to ensure compliance with applicable legislative, regulatory and contractual requirements to address intellectual property rights on business processes or information technology software products? Yes
+3. Does your company follow a formal Software Development Life Cycle (SDLC) process? Yes
+4. Is there a formal process for appropriate management knowingly and objectively accepting risks and approving action plans? Yes
+5. Is there an risk management, compliance department, or other management oversight unit with responsibility for identifying and tracking resolution of outstanding regulatory issues? Yes
+",N/A
+Are you able to maintain a defect backlog < 10 throughout the development cycle?,"1. Does your company follow a formal Software Development Life Cycle (SDLC) process? Yes
+2. Is any of your company's software development outsourced? No
+3. Does your company perform a secure code review at least annually? Yes
+4. Do you have a vulnerability management program (e.g. vulnerability scans, penetration tests, patch management, etc.)? Yes
+5. Does application development follow a formal application security standards methodology (e.g. OWASP, Microsoft SDL)? Yes
+",N/A
+Do all customer found defects go through a Root Cause Analysis?,"1. Does the company have a documented Incident Management program? Yes
+2. Is a Business Impact Analysis conducted periodically? Annually
+3. Is there a formal Incident Response Plan? Yes
+4. Does your company perform a secure code review at least annually? Yes
+5. Does your company follow a formal Software Development Life Cycle (SDLC) process? Yes
+",N/A
+Can Upgrades be pushed or promoted automatically without manual interaction?,"1. Are thrid party services used to keep up to date with the latest vulnerabilities? Yes
+2. Is there a monitoring and alerting mechanism in place on your network? Yes
+3. Are all available high-risk security patches applied and verified on all server platforms? Yes
+4. Are privileged user access rights reviewed at least quarterly? Yes
+5. Are all available high-risk network security patches applied and verified at least monthly? Yes
+",N/A
+Will your software allow upgrades without service interruptions?,"1. Are there any dependencies on critical third party service providers? Yes
+2. Are thrid party services used to keep up to date with the latest vulnerabilities? Yes
+3. Is any of your company's software development outsourced? No
+4. Does your company develop application components that Qualcomm uses (or will use)? Yes
+5. Does your company have a written set of guidelines for the configuration, maintenance and use of your network? No
+",N/A
+Is Availability (Uptime) tracked and continuously improved with root cause analysis & lessons learned after an Outage?,"1. Is there a monitoring and alerting mechanism in place on your network? Yes
+2. Are thrid party services used to keep up to date with the latest vulnerabilities? Yes
+3. Is there sufficient redundancy capacity to ensure services are not impacted in multi-tenancy environments during peak usage and above? Yes
+4. Does the company have a documented Incident Management program? Yes
+5. Are all suppliers of critical hardware, network services and facility services involved in annual continuity and recovery tests? No, performed as standalone test
+",N/A
+"Do you use an industry standard tool for Customer Support cases e.g. JIRA Service Desk, BMC Remedy ITSM?","1. Does the company have a documented Incident Management program? Yes
+2. Does your company follow a formal Software Development Life Cycle (SDLC) process? Yes
+3. Do you have a vulnerability management program (e.g. vulnerability scans, penetration tests, patch management, etc.)? Yes
+4. Does your company follow a formal OS (Unix, Linux, Windows) hardening standards? Yes
+5. Are there any dependencies on critical third party service providers? Yes
+",N/A
+Do you have the ability to deploy a hot fix or patch for emergency repair?,"1. Are all available high-risk security patches applied and verified on all server platforms? Yes
+2. Are all available high-risk network security patches applied and verified at least monthly? Yes
+3. Do you have a vulnerability management program (e.g. vulnerability scans, penetration tests, patch management, etc.)? Yes
+4. Is there a monitoring and alerting mechanism in place on your network? Yes
+5. Does the company have a documented Incident Management program? Yes
+",Yes.
+" Do you have a documented SDLC process that includes Security, Privacy, Quality, etc. ","1. Does your company follow a formal Software Development Life Cycle (SDLC) process? Yes
+2. Does application development follow a formal application security standards methodology (e.g. OWASP, Microsoft SDL)? Yes
+3. Are all security configuration standards documented? Yes
+4. Are there policies and procedures to ensure compliance with applicable legislative, regulatory and contractual requirements to address intellectual property rights on business processes or information technology software products? Yes
+5. Does your company perform a secure code review at least annually? Yes
+",Yes.
+"Do your current products and offerings have cybersecurity related certifications (e.g. FIPS, ISO 27000 Series, DISA, NIST, FedRamp)?","1. Do you have a vulnerability management program (e.g. vulnerability scans, penetration tests, patch management, etc.)? Yes
+2. Have the information security policies been reviewed in the last 12 months? Yes
+3. Does your company perform a secure code review at least annually? Yes
+4. Are the data center(s) categorized in tiers or certified in some way (e.g.,TIA-942, ISO 27001, SSAE-16, etc.)? Yes, we can provide the data center SOC 2 certificate on request.
+5. Describe how you perform security assessments of third party companies with which you share data (subcontractors, hosting providers, etc.)? We are asking for a SOC 2 or equivalent certification. We are reviewing the contracts.
+",N/A
+Do you use an Agile development process e.g. Agile (Scrum/Kanban)? ,"1. Does your company follow a formal Software Development Life Cycle (SDLC) process? Yes
+2. Is any of your company's software development outsourced? No
+3. Does your company develop application components that Qualcomm uses (or will use)? Yes
+4. Do you have a vulnerability management program (e.g. vulnerability scans, penetration tests, patch management, etc.)? Yes
+5. Does application development follow a formal application security standards methodology (e.g. OWASP, Microsoft SDL)? Yes
+",Yes.
+Do you release on short duration cycles (3 months or less)?,"1. Are BC/DR tests conducted periodically? Quarterly
+2. Does your company enforce session timeouts or screen lockouts upon 15 minutes or less of inactivity? Yes
+3. Has your company suffered a data loss or security breach within the last 3 years? No
+4. Has a risk assessment been conducted within the last 12 months? Yes
+5. Are user access rights reviewed at least annually? Yes
+",N/A
+"Do you have a certified Project Manager or Scrum Master facilitating Sprints, Releases and Projects e.g. PMP, CSM, ACP?","1. Does your company follow a formal Software Development Life Cycle (SDLC) process? Yes
+2. Do you have a vulnerability management program (e.g. vulnerability scans, penetration tests, patch management, etc.)? Yes
+3. Do you have an penetration test assessment (e.g.,executive summary, full report, etc.) which follows the OWASP guidelines and performed within the last year? Yes
+4. Does the company have a documented Incident Management program? Yes
+5. Is any of your company's software development outsourced? No
+",N/A
+"Are meetings held (at least weekly) to discuss progress, dependencies, issues and risk mitigation affecting launch dates?","1. Is there a risk assessment program that has been approved by management, communicated to appropriate constituents and has an owner owner assigned to maintain and review the program? Yes
+2. Is there a periodic (at least annual) review of your Business Resiliency Program? Yes
+3. Is a Business Impact Analysis conducted periodically? Annually
+4. Are privileged user access rights reviewed at least quarterly? Yes
+5. Is there an established Business Resiliency program that has been approved by management and communicated to appropriate constituents? Yes
+",N/A
+"Do you use an industry standard tool for tracking the progress of Sprints, Releases and Projects e.g. MS Project, Smartsheet, JIRA?","1. Does your company follow a formal Software Development Life Cycle (SDLC) process? Yes
+2. Is any of your company's software development outsourced? No
+3. Do you have a vulnerability management program (e.g. vulnerability scans, penetration tests, patch management, etc.)? Yes
+4. Does application development follow a formal application security standards methodology (e.g. OWASP, Microsoft SDL)? Yes
+5. Does the company have a documented Incident Management program? Yes
+","Yes, we use JIRA for tracking the progress of Sprints, Releases and Projects."
+Is there a definition of done defined for both Sprints/Releases?,"1. Does your company follow a formal Software Development Life Cycle (SDLC) process? Yes
+2. Are the development, test, and staging environment separate from the production environment? Yes
+3. Is there a formal, documented exercise and testing program in place? No
+4. Does application development follow a formal application security standards methodology (e.g. OWASP, Microsoft SDL)? Yes
+5. Is there an operational change management/change control policy or program that has been approved by management, communicated to appropriate constituents and an owner to maintain and review the policy? Yes
+",N/A
+Are requirements documented and traceable throughout the software development lifecycle?,"1. Does your company follow a formal Software Development Life Cycle (SDLC) process? Yes
+2. Are there policies and procedures to ensure compliance with applicable legislative, regulatory and contractual requirements to address intellectual property rights on business processes or information technology software products? Yes
+3. Are all security configuration standards documented? Yes
+4. Does application development follow a formal application security standards methodology (e.g. OWASP, Microsoft SDL)? Yes
+5. Are formal business continuity procedures developed and documented? Yes
+",Yes.
+Do you carry out vulnerability scans as part of the development lifecycle?,"1. Do you have a vulnerability management program (e.g. vulnerability scans, penetration tests, patch management, etc.)? Yes
+2. Are vulnerability assessments or scans on internal or external network connections performed at least quarterly? Yes
+3. Are vulnerability assessements, scans or penetration tests performed by trained and experienced personnel or company? Yes
+4. Does your company perform a secure code review at least annually? Yes
+5. Do you have an penetration test assessment (e.g.,executive summary, full report, etc.) which follows the OWASP guidelines and performed within the last year? Yes
+",N/A
+What Hosting Providers will store or process Motorola Solutions data?,"1. Where is the application/service being hosted? Data will be hosted in a Qualcomm datacenter
+2. Provide a brief description for why each of these third parties will have access to the data? Depending on the location of the hosting company. On the managed - enterprise - hosting plan, the hosting company also manages the servers from their SOC and NOC. On the Signifi hosting plan, the third party - hosting provider - does not have direct access to the servers.
+3. Where is the application or service being hosted? Hosted in a cloud or data center environment managed by my organization or a 3rd party (e.g. public, hybrid, private cloud or data center)
+Hosted in a cloud / data center environment managed by Qualcomm. (e.g. Qualcomm’s AWS account or data center)
+Other
+4. Do you share data with, or enable direct access by, any third-party (e.g. subcontractors, hosting providers)? Yes
+5. Are web servers used for transmitting, processing or storing data? Yes
+",N/A
+In what countries are the Hosting Providers/Datacenters?,"1. Does the system and data reside in a data center and/or a cloud service? Data Center
+2. Are the data center(s) used exclusively by your company, or are some shared? No, some or all of the data center(s) are shared with other companies
+3. Where is the application/service being hosted? Data will be hosted in a Qualcomm datacenter
+4. Where is the application or service being hosted? Hosted in a cloud or data center environment managed by my organization or a 3rd party (e.g. public, hybrid, private cloud or data center)
+Hosted in a cloud / data center environment managed by Qualcomm. (e.g. Qualcomm’s AWS account or data center)
+Other
+5. Provide a brief description for why each of these third parties will have access to the data? Depending on the location of the hosting company. On the managed - enterprise - hosting plan, the hosting company also manages the servers from their SOC and NOC. On the Signifi hosting plan, the third party - hosting provider - does not have direct access to the servers.
+",N/A
+"If this is a Cloud solution, which cloud architecture will be used?","1. Does the system and data reside in a data center and/or a cloud service? Data Center
+2. Where is the application or service being hosted? Hosted in a cloud or data center environment managed by my organization or a 3rd party (e.g. public, hybrid, private cloud or data center)
+Hosted in a cloud / data center environment managed by Qualcomm. (e.g. Qualcomm’s AWS account or data center)
+Other
+3. Where is the application/service being hosted? Data will be hosted in a Qualcomm datacenter
+4. Are the data center(s) used exclusively by your company, or are some shared? No, some or all of the data center(s) are shared with other companies
+5. Is there sufficient redundancy capacity to ensure services are not impacted in multi-tenancy environments during peak usage and above? Yes
+",N/A
+"Who from your company, the hosting provider, and anyone in your supply chain, will have access to Motorola Solutions data?","1. Do you share data with, or enable direct access by, any third-party (e.g. subcontractors, hosting providers)? Yes
+2. Provide a brief description for why each of these third parties will have access to the data? Depending on the location of the hosting company. On the managed - enterprise - hosting plan, the hosting company also manages the servers from their SOC and NOC. On the Signifi hosting plan, the third party - hosting provider - does not have direct access to the servers.
+3. Have any of your third party vendors suffered a data loss or security breach within the last 3 years? No
+4. Is there a process to grant and approve access to systems transmitting, processing or storing system and data? Yes
+5. Are the data center(s) used exclusively by your company, or are some shared? No, some or all of the data center(s) are shared with other companies
+",N/A
+From which countries or regions will these personnel provide solutions or services?,"1. Is there a security awareness training program for all personnel (employees and consultants)? Yes
+2. Does the system and data reside in a data center and/or a cloud service? Data Center
+3. Where is the application or service being hosted? Hosted in a cloud or data center environment managed by my organization or a 3rd party (e.g. public, hybrid, private cloud or data center)
+Hosted in a cloud / data center environment managed by Qualcomm. (e.g. Qualcomm’s AWS account or data center)
+Other
+4. Are vulnerability assessements, scans or penetration tests performed by trained and experienced personnel or company? Yes
+5. Provide a brief description for why each of these third parties will have access to the data? Depending on the location of the hosting company. On the managed - enterprise - hosting plan, the hosting company also manages the servers from their SOC and NOC. On the Signifi hosting plan, the third party - hosting provider - does not have direct access to the servers.
+",N/A
+Do you allow your personnel to store Motorola Solutions data on their personal devices?,"1. Are mobile devices used /allowed to access systems and data? No
+2. Are End User Devices (Desktops, Laptops, Tablets) used for transmitting, processing or storing data? Yes
+3. Are all personnel required to sign an Acceptable Use Policy? Yes
+4. Are electronic systems used to transmit, process or store data? Yes
+5. Is there a process to grant and approve access to systems transmitting, processing or storing system and data? Yes
+",N/A
+Are internet-facing and internal network systems included in vulnerability scans?,"1. Are vulnerability assessments or scans on internal or external network connections performed at least quarterly? Yes
+2. Vulnerability assessments, scans or penetration tests are performed on: External network connections only
+Third party penetration scans are done annually. Internal scans are done monthly.
+3. Are Intrusion detection/prevention systems employed in all sensitive network zones and wherever firewalls are enabled? Yes
+4. Are vulnerability assessements, scans or penetration tests performed by trained and experienced personnel or company? Yes
+5. Do you have a vulnerability management program (e.g. vulnerability scans, penetration tests, patch management, etc.)? Yes
+",Yes.
+How often are penetration tests performed for the in-scope systems?,"1. Vulnerability assessments, scans or penetration tests are performed on: External network connections only
+Third party penetration scans are done annually. Internal scans are done monthly.
+2. Do you have an penetration test assessment (e.g.,executive summary, full report, etc.) which follows the OWASP guidelines and performed within the last year? Yes
+3. Are vulnerability assessements, scans or penetration tests performed by trained and experienced personnel or company? Yes
+4. Are vulnerability assessments or scans on internal or external network connections performed at least quarterly? Yes
+5. How often are the assessments performed? Annually
+",Penetration tests are performed annually for the in-scope systems.
+Do you support SAML 2.0 federated single sign-on (SSO).,"1. Is standards based federated ID capability available to clients (e.g., SAML, OpenID)? No
+2. Is two factor authentication required for remote access? Yes
+3. Do you share data with, or enable direct access by, any third-party (e.g. subcontractors, hosting providers)? Yes
+4. Does the company require two-factor authentication for remote administration of IT assets and administrative access to the firewall? No
+5. Is HTTPS enabled for any web applications used as part of the service that allow users to log in or contain anything but public data? Yes
+",No.
+Is SSO already implemented (or planned) with Motorola Solutions?,"1. Is standards based federated ID capability available to clients (e.g., SAML, OpenID)? No
+2. Does your company develop application components that Qualcomm uses (or will use)? Yes
+3. Is there a password policy for systems that transmit, process or store scoped systems data that has been approved by management, communicated to constituents, and enforced on all platforms? Yes
+4. Are mobile devices used /allowed to access systems and data? No
+5. Does your company follow a formal Software Development Life Cycle (SDLC) process? Yes
+",N/A
+"If SSO is not supported, is multi-factor authentication available? ","1. Is two factor authentication required for remote access? Yes
+2. Is standards based federated ID capability available to clients (e.g., SAML, OpenID)? No
+3. Does the company require two-factor authentication for remote administration of IT assets and administrative access to the firewall? No
+4. Is HTTPS enabled for any web applications used as part of the service that allow users to log in or contain anything but public data? Yes
+5. Is there a password policy for systems that transmit, process or store scoped systems data that has been approved by management, communicated to constituents, and enforced on all platforms? Yes
+",N/A
+"Do you have formal procedures to request, approve, provision, de-provision, and review access rights for your internal user and system accounts?","1. Is there a process to grant and approve access to systems transmitting, processing or storing system and data? Yes
+2. Are user access rights reviewed at least annually? Yes
+3. Are privileged user access rights reviewed at least quarterly? Yes
+4. Are documented procedures followed to govern change in employment and/or termination including the timely revocation of access and return of assets? Yes
+5. Is there a password policy for systems that transmit, process or store scoped systems data that has been approved by management, communicated to constituents, and enforced on all platforms? Yes
+",Yes.
+ Do you have network intrusion detection/intrusion prevention (IDS/IPS) systems in place?,"1. Are Intrusion detection/prevention systems employed in all sensitive network zones and wherever firewalls are enabled? Yes
+2. Is there a monitoring and alerting mechanism in place on your network? Yes
+3. Do you have a vulnerability management program (e.g. vulnerability scans, penetration tests, patch management, etc.)? Yes
+4. Does your company have a host-based firewall solution deployed and enabled on all computer systems? Yes-Servers only
+5. Does your company have a written set of guidelines for the configuration, maintenance and use of your network? No
+",Yes.
+"Do you have provisions in place (detection, revocation) in the event of the theft of a customer’s credentials?","1. Have any of your third party vendors suffered a data loss or security breach within the last 3 years? No
+2. Do you have a process in place for granting and revoking physical access to data centers? No
+Signifi does not have access to and does not control the data center physical security.
+3. Do you have a vulnerability management program (e.g. vulnerability scans, penetration tests, patch management, etc.)? Yes
+4. Is there a monitoring and alerting mechanism in place on your network? Yes
+5. Is there a password policy for systems that transmit, process or store scoped systems data that has been approved by management, communicated to constituents, and enforced on all platforms? Yes
+",N/A
+Do you have controls to manage malware/malicious code?,"1. Is there an anti-virus / malware policy or program (workstations, servers, mobile devices) that has been approved by management, communicated to appropriate constituents and an owner to maintain and review the policy? Yes
+2. Does your company have an Anti-Malware (anti-virus, anti-spyware, etc.) solution deployed to all desktops and laptops? Yes
+BitDefender GravityZone.
+3. Do you have a vulnerability management program (e.g. vulnerability scans, penetration tests, patch management, etc.)? Yes
+4. Does your company perform a secure code review at least annually? Yes
+5. Are thrid party services used to keep up to date with the latest vulnerabilities? Yes
+",Yes.
+Do you have logging and monitoring processes in place for your infrastructure and applications? Describe.,"1. Is there a monitoring and alerting mechanism in place on your network? Yes
+2. Does the company have a documented Incident Management program? Yes
+3. Are operating system and application logs relevant to investigation of incidents protected against modification, deletion, and/or inappropriate access? Yes
+4. Do you have a vulnerability management program (e.g. vulnerability scans, penetration tests, patch management, etc.)? Yes
+5. Are formal business continuity procedures developed and documented? Yes
+","Yes, we have logging and monitoring processes in place for our infrastructure and applications. Our monitoring system alerts us in case of any anomalies or suspicious activities, and we have logs that are protected against modification, deletion, and inappropriate access."
+Do you protect logs from unauthorized access or tampering? Explain.,"1. Are operating system and application logs relevant to investigation of incidents protected against modification, deletion, and/or inappropriate access? Yes
+2. Is there a process to grant and approve access to systems transmitting, processing or storing system and data? Yes
+3. Do you have a process in place for granting and revoking physical access to data centers? No
+Signifi does not have access to and does not control the data center physical security.
+4. Are reasonable physical security and environmental controls present in the office buildings and data center? Yes
+5. Is HTTPS enabled for any web applications used as part of the service that allow users to log in or contain anything but public data? Yes
+","Yes, operating system and application logs are protected against modification, deletion, and/or inappropriate access to ensure the integrity of the data."
+Do you provide relevant APIs to provide logs and other event information to Motorola Solutions SIEM? Explain the log file format and how access to the logs is provided.,"1. Are operating system and application logs relevant to investigation of incidents protected against modification, deletion, and/or inappropriate access? Yes
+2. Does the company have a documented Incident Management program? Yes
+3. Is there a process to grant and approve access to systems transmitting, processing or storing system and data? Yes
+4. Is there a formal Incident Response Plan? Yes
+5. Does your company develop application components that Qualcomm uses (or will use)? Yes
+",N/A
+Do you review administrator and privileged account usage?.,"1. Are privileged user access rights reviewed at least quarterly? Yes
+2. Are user access rights reviewed at least annually? Yes
+3. Have the information security policies been reviewed in the last 12 months? Yes
+4. Does your company allow remote (i.e. VPN) access to remotely administrator your network? Yes
+5. Is there a password policy for systems that transmit, process or store scoped systems data that has been approved by management, communicated to constituents, and enforced on all platforms? Yes
+",N/A
+Do you have a team that is capable of finding and responding to Advanced Persistent Threats (APT)? Describe.,"1. Do you have a vulnerability management program (e.g. vulnerability scans, penetration tests, patch management, etc.)? Yes
+2. Are thrid party services used to keep up to date with the latest vulnerabilities? Yes
+3. Are vulnerability assessements, scans or penetration tests performed by trained and experienced personnel or company? Yes
+4. Do you have an penetration test assessment (e.g.,executive summary, full report, etc.) which follows the OWASP guidelines and performed within the last year? Yes
+5. Is there a formal Incident Response Plan? Yes
+",N/A
+"Are there policies, procedures and mechanisms implemented which define patch management? ","1. Do you have a vulnerability management program (e.g. vulnerability scans, penetration tests, patch management, etc.)? Yes
+2. Is there an anti-virus / malware policy or program (workstations, servers, mobile devices) that has been approved by management, communicated to appropriate constituents and an owner to maintain and review the policy? Yes
+3. Are all available high-risk network security patches applied and verified at least monthly? Yes
+4. Are all available high-risk security patches applied and verified on all server platforms? Yes
+5. Are there policies and procedures to ensure compliance with applicable legislative, regulatory and contractual requirements to address intellectual property rights on business processes or information technology software products? Yes
+",Yes.
+Do you encrypt data transmitted over public networks (e.g. the internet)?,"1. Are encrypted communications required for all remote connections? Yes
+2. How does your company use encryption to secure data Encryption in transit outside the network
+Encryption at rest and in transit within the network
+Both (Encryption in transit and at rest within & outside the network)
+No, compensating control in place (explained in comment box)
+3. Are electronic systems used to transmit, process or store data? Yes
+4. Are web servers used for transmitting, processing or storing data? Yes
+5. Are End User Devices (Desktops, Laptops, Tablets) used for transmitting, processing or storing data? Yes
+",Yes.
+"Do you encrypt Motorola Solutions data at rest (application, file system, or database)? (This is not laptop encryption.)","1. Does your company require whole disk encryption on laptops? Yes-on all Laptops
+2. How does your company use encryption to secure data Encryption in transit outside the network
+Encryption at rest and in transit within the network
+Both (Encryption in transit and at rest within & outside the network)
+No, compensating control in place (explained in comment box)
+3. How does your company secure sensitive information on removable media (e.g., USB drive, external hard drives, DVDs, etc.)? Policy restricting sensitive data on media.
+Controls restricting data from being copied to removable media.
+Controls enforcing encryption on removable media
+No controls in place
+We are working on implementing controls for encryption of removable media. Policy does not allow users to copy customer data to their workstations and removable media.
+4. Are mobile devices used /allowed to access systems and data? No
+5. Does your company develop application components that Qualcomm uses (or will use)? Yes
+",N/A
+"Once Motorola Solutions data is deleted or wiped from production systems, how long is that data retained in backups?","1. Are your company's system backups stored at an offsite location? Yes
+2. Have any of your third party vendors suffered a data loss or security breach within the last 3 years? No
+3. Are electronic systems used to transmit, process or store data? Yes
+4. Has your company suffered a data loss or security breach within the last 3 years? No
+5. Are business information systems used to transmit, process or store data? Yes
+",N/A
+ Is data encrypted in transit from a user’s device to the hosting platform? Explain,"1. How does your company use encryption to secure data Encryption in transit outside the network
+Encryption at rest and in transit within the network
+Both (Encryption in transit and at rest within & outside the network)
+No, compensating control in place (explained in comment box)
+2. Are End User Devices (Desktops, Laptops, Tablets) used for transmitting, processing or storing data? Yes
+3. Are web servers used for transmitting, processing or storing data? Yes
+4. Is HTTPS enabled for any web applications used as part of the service that allow users to log in or contain anything but public data? Yes
+5. Are encrypted communications required for all remote connections? Yes
+","Yes, encryption in transit is used to secure data from a user's device to the hosting platform."
+"Must the user grant the application device permissions? If yes, provide specific device permissions required for each supported mobile platform (e.g. Android - location setting, iOS - location services, etc.)","1. Are mobile devices used /allowed to access systems and data? No
+2. Is there a process to grant and approve access to systems transmitting, processing or storing system and data? Yes
+3. Is remote access permitted? Yes
+4. Are unique user IDs required for user authentication to applications, operating systems, database and network devices? Yes
+5. Does your company develop application components that Qualcomm uses (or will use)? Yes
+",N/A
+Are users authenticated and authorized for the mobile application?,"1. Are mobile devices used /allowed to access systems and data? No
+2. Are unique user IDs required for user authentication to applications, operating systems, database and network devices? Yes
+3. Are user access rights reviewed at least annually? Yes
+4. Are privileged user access rights reviewed at least quarterly? Yes
+5. Is HTTPS enabled for any web applications used as part of the service that allow users to log in or contain anything but public data? Yes
+",N/A
+Do you store Motorola Solutions data on your enterprise network or assets?,"1. Are business information systems used to transmit, process or store data? Yes
+2. Are electronic systems used to transmit, process or store data? Yes
+3. Are End User Devices (Desktops, Laptops, Tablets) used for transmitting, processing or storing data? Yes
+4. Does your company have a written set of guidelines for the configuration, maintenance and use of your network? No
+5. Are your company's system backups stored at an offsite location? Yes
+",N/A
+Do you access Motorola Solutions customer equipment from your enterprise network or assets?,"1. Does your company allow remote (i.e. VPN) access to remotely administrator your network? Yes
+2. Does your company have a written set of guidelines for the configuration, maintenance and use of your network? No
+3. Is management of your network (or part thereof) outsourced? No
+4. Does your company develop application components that Qualcomm uses (or will use)? Yes
+5. Are mobile devices used /allowed to access systems and data? No
+",N/A

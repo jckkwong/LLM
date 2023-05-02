@@ -1,0 +1,170 @@
+﻿question,answer
+Company/Business name,Signifi Solutions Inc.
+How long has the company been in business?,15 Years
+Are there any material claims or judgments against the company?,No
+Has your company suffered a data loss or security breach within the last 3 years?,No
+Have any of your third party vendors suffered a data loss or security breach within the last 3 years?,No
+Provide a detailed description of application or service under consideration by Qualcomm,"Digital Lockers & Vending from Signifi offer secure and simple ways for users
+to access or purchase goods at their convenience. Digital Vending gives end-users secure purchasing options for corporate approved peripherals.
+Digital Lockers provide secure storage and pickup/drop-off capabilities for a variety of use cases  for example businesses who are providing end-user device repair and support or for businesses looking for audit-able and monitored storage of company ownedtools or assets."
+Where is the application/service being hosted?,Data will be hosted in a Qualcomm datacenter
+Have you undergone a SOC2 certification within the last 2 years?,No
+"Do you have an penetration test assessment (e.g.,executive summary, full report, etc.) which follows the OWASP guidelines and performed within the last year?",Yes
+"Is there a risk assessment program that has been approved by management, communicated to appropriate constituents and has an owner owner assigned to maintain and review the program?",Yes
+Has a risk assessment been conducted within the last 12 months?,Yes
+Is there a formal process for appropriate management knowingly and objectively accepting risks and approving action plans?,Yes
+"Do you share data with, or enable direct access by, any third-party (e.g. subcontractors, hosting providers)?",Yes
+Provide a brief description for why each of these third parties will have access to the data?,"Depending on the location of the hosting company. On the managed - enterprise - hosting plan, the hosting company also manages the servers from their SOC and NOC. On the Signifi hosting plan, the third party - hosting provider - does not have direct access to the servers."
+Is there a documented vendor management process in place for selection and oversight of third party vendors? (Check all that apply),"Approval by management? yes 
+Annual review?No
+Review of subcontractor's vendor management policy & procedures?Yes
+Other?No"
+The third parties with whom you share or enable direct access to data are: (check all that apply),"Subjected to a background check? yes
+Bound by the same legal requirements for privacy, data protection, and information security as your company? yes
+Required to obtain your consent before using the data? yes
+Required to notify your company and/or client in the event of a data breach? yes
+Required to assist your company in making disclosures or notifications in the event of a data breach or data subject inquiry? yes
+Required to give privacy and data protection training and education to all subcontractor employees with access to data? Required to submit to audits by your company and/or to provide annual privacy, data protection, and/or data security audit reports? No
+Required to destroy data upon request by either you or client?"
+"Describe how you perform security assessments of third party companies with which you share data (subcontractors, hosting providers, etc.)?",We are asking for a SOC 2 or equivalent certification. We are reviewing the contracts.
+Does management require the use of confidentiality or non-disclosure agreements for all third parties?,Yes
+Are there legal agreements (i.e. contracts) in place with the third parties that addresses liability in the event of a data breach?,No
+"Is there an information security policy that has been approved by management, communicated to appropriate constituents and an owner to maintain and review the policy?",Yes
+Have the information security policies been reviewed in the last 12 months?,Yes
+Is there a review and approval board for changes made to the information security policy?,No
+Is there a process to approve exceptions to the information security policy?,No
+Is there a information security function responsible for security initiatives?,The Director of Technology - head of IT - is also the Chief Security Officer.
+"Is there an asset management policy that has been approved by management, communicated to appropriate constituents and an owner to maintain and review?",Yes
+Are information assets classified?,Yes
+"Is there an information asset classification policy or program that has been approved by management, communicated to appropriate constituents and an owner to maintain and review the policy?",Yes
+"Is a background screening /verification (as allowed by local laws, regulations, ethics and contractual constraints) performed for personnels (employees, contractors) prior to allowing access to systems and data? (Check all that apply)","Criminial ? yes
+Credit? No
+Academic? No
+Reference? Yes
+Resume or curriculum vitae? Yes
+Drug Screening? No
+We perform criminal background checks for persons with access to customer data."
+"Are all personnels (employees, contractors) required to sign confidentiality agreements to protect customer information, as a condition of employment?",Yes
+Are all personnel required to sign an Acceptable Use Policy?,Yes
+Is there a security awareness training program for all personnel (employees and consultants)?,Yes
+Is there a disciplinary process for non-compliance with information security policies?,Yes
+Are documented procedures followed to govern change in employment and/or termination including the timely revocation of access and return of assets?,Yes
+Are reasonable physical security and environmental controls present in the office buildings and data center?,Yes
+Does the system and data reside in a data center and/or a cloud service?,Data Center
+"Are the data center(s) used exclusively by your company, or are some shared?","No, some or all of the data center(s) are shared with other companies"
+Do you have a written policy that lists the physical security requirements for data centers?,"No
+The data center lists the physical security measures, e.g. https://us.ovhcloud.com/about/company/security"
+"Are the data center(s) categorized in tiers or certified in some way (e.g.,TIA-942, ISO 27001, SSAE-16, etc.)?","Yes, we can provide the data center SOC 2 certificate on request."
+Select the security controls that are in place at all of your data centers: (Check all that apply),"Guards? Yes
+Mantrap? No
+Motion detectors? No 
+Alarms? Yes
+CCTV? Yes
+Electronic access control (e.g., swipe cards) ? Yes
+Perimeter security ? Yes
+UPS batteries? Yes
+Backup generators? Yes
+Signifi does not have access to and does not control the data center physical security."
+Do you have a process in place for granting and revoking physical access to data centers?,"No
+Signifi does not have access to and does not control the data center physical security."
+"Is there an operational change management/change control policy or program that has been approved by management, communicated to appropriate constituents and an owner to maintain and review the policy?",Yes
+Are your company's system backups stored at an offsite location?,Yes
+What measures are taken to ensure safe transport of backups? (Check all that apply),"Secured transport
+Encrypted backup tapes
+Tamper-proof seals on tape containers
+Documentation and receipt of tape transfer
+None
+N/A, stored in the cloud
+Backups are encrypted."
+Does the offsite backup storage location have the same or stronger security controls as your primary location?,Yes
+Is wireless networking technology used?,"No
+No Wi-Fi is used in the production infrastructure."
+"Is there a removable media (CDs, DVDs, tapes, disk drives) policy or program that has been approved by management, communicated to appropriate constituents, and an owner to maintain and review the policy?",Yes
+"How does your company secure sensitive information on removable media (e.g., USB drive, external hard drives, DVDs, etc.)?","Policy restricting sensitive data on media.
+Controls restricting data from being copied to removable media.
+Controls enforcing encryption on removable media
+No controls in place
+We are working on implementing controls for encryption of removable media. Policy does not allow users to copy customer data to their workstations and removable media."
+How does your company use encryption to secure data,"Encryption in transit outside the network
+Encryption at rest and in transit within the network
+Both (Encryption in transit and at rest within & outside the network)
+No, compensating control in place (explained in comment box)"
+"Does your company follow a formal OS (Unix, Linux, Windows) hardening standards?",Yes
+Are the standards reviewed and/or updated at least quarterly to ensure any security vulnerabilities are addressed?,"No 
+Standards are reviewed yearly."
+"Are electronic systems used to transmit, process or store data?",Yes
+"Are unique user IDs required for user authentication to applications, operating systems, database and network devices?",Yes
+"Is there a process to grant and approve access to systems transmitting, processing or storing system and data?",Yes
+Are user access rights reviewed at least annually?,Yes
+Are privileged user access rights reviewed at least quarterly?,Yes
+Does your company enforce session timeouts or screen lockouts upon 15 minutes or less of inactivity?,Yes
+"Is there a password policy for systems that transmit, process or store scoped systems data that has been approved by management, communicated to constituents, and enforced on all platforms?",Yes
+At what interval does your corporate policy require users to change their passwords?,Every 90 days
+Is remote access permitted?,Yes
+Is two factor authentication required for remote access?,Yes
+"Is standards based federated ID capability available to clients (e.g., SAML, OpenID)?",No
+Are remote users prevented from copying data to remote devices?,No
+Are encrypted communications required for all remote connections?,Yes
+"Are business information systems used to transmit, process or store data?",Yes
+Does your company develop application components that Qualcomm uses (or will use)?,Yes
+"Does application development follow a formal application security standards methodology (e.g. OWASP, Microsoft SDL)?",Yes
+Does your company follow a formal Software Development Life Cycle (SDLC) process?,Yes
+Does your company perform a secure code review at least annually?,Yes
+"Are the development, test, and staging environment separate from the production environment?",Yes
+Is any of your company's software development outsourced?,No
+"Are web servers used for transmitting, processing or storing data?",Yes
+Is HTTPS enabled for any web applications used as part of the service that allow users to log in or contain anything but public data?,Yes
+Does the company have a documented Incident Management program?,Yes
+Is there a formal Incident Response Plan?,Yes
+Is there a phone number available to clients to report security incidents?,"Yes
+The clients can reach the Signifi support department at the - published on our website - customer service toll free number."
+Is there an established Business Resiliency program that has been approved by management and communicated to appropriate constituents?,Yes
+"Is there a Business Resiliency policy defined, reviewed and approved on a periodic cadence? If yes, please provide the frequency under comments box.","Yes
+BCP reviewed yearly."
+Are there any dependencies on critical third party service providers?,Yes
+"Is there a formal, documented exercise and testing program in place?",No
+Is there a specific Recovery Time Objective (RTO)?,"Yes, RTO indicated in comment box
+Depending on the hosting option, from 5 minutes to 24 hours."
+"Are all suppliers of critical hardware, network services and facility services involved in annual continuity and recovery tests?","No, performed as standalone test"
+Do contracts with critical service providers include a penalty or remediation clause for breach of availability and continuity SLAs?,No
+Is there sufficient redundancy capacity to ensure services are not impacted in multi-tenancy environments during peak usage and above?,Yes
+Is there a periodic (at least annual) review of your Business Resiliency Program?,Yes
+Has an independent third party evaluated the Business Resiliency Program within the past 12 months?,Yes
+Is a Business Impact Analysis conducted periodically?,Annually
+Are formal business continuity procedures developed and documented?,Yes
+Are BC/DR tests conducted periodically?,Quarterly
+"Is there an risk management, compliance department, or other management oversight unit with responsibility for identifying and tracking resolution of outstanding regulatory issues?",Yes
+Is there an internal audit function or a third party that conducts assessments of the systems and data?,"Yes
+Internal audit."
+How often are the assessments performed?,Annually
+"Are there policies and procedures to ensure compliance with applicable legislative, regulatory and contractual requirements to address intellectual property rights on business processes or information technology software products?",Yes
+Is there an internal compliance and ethics reporting mechanism and training program for employees to report compliance issues?,Yes
+"Are End User Devices (Desktops, Laptops, Tablets) used for transmitting, processing or storing data?",Yes
+"Does your company have an Anti-Malware (anti-virus, anti-spyware, etc.) solution deployed to all desktops and laptops?","Yes
+BitDefender GravityZone."
+Are all available high-risk security patches applied and verified on all server platforms?,Yes
+Does your company require whole disk encryption on laptops?,Yes-on all Laptops
+Are all security configuration standards documented?,Yes
+Does your company have a host-based firewall solution deployed and enabled on all computer systems?,Yes-Servers only
+"Are operating system and application logs relevant to investigation of incidents protected against modification, deletion, and/or inappropriate access?",Yes
+Is management of your network (or part thereof) outsourced?,No
+"Does your company have a written set of guidelines for the configuration, maintenance and use of your network?",No
+Are firewalls (application aware) in use for both internal and external connections?,"No
+We use firewalls, but not WAFs, yet."
+Are all available high-risk network security patches applied and verified at least monthly?,Yes
+Are Intrusion detection/prevention systems employed in all sensitive network zones and wherever firewalls are enabled?,Yes
+Is there a monitoring and alerting mechanism in place on your network?,Yes
+"Does your company allow wireless networks access to private aspects of your infrastructure (i.e., Wi-Fi networks, excluding networks that only allow guests access to the Internet)?","Yes, but we have implemented 802.1x to authenticate workstations."
+Does your company allow remote (i.e. VPN) access to remotely administrator your network?,Yes
+Does the company require two-factor authentication for remote administration of IT assets and administrative access to the firewall?,No
+Are mobile devices used /allowed to access systems and data?,No
+"Is there an anti-virus / malware policy or program (workstations, servers, mobile devices) that has been approved by management, communicated to appropriate constituents and an owner to maintain and review the policy?",Yes
+Are thrid party services used to keep up to date with the latest vulnerabilities?,Yes
+"Do you have a vulnerability management program (e.g. vulnerability scans, penetration tests, patch management, etc.)?",Yes
+"Vulnerability assessments, scans or penetration tests are performed on:","External network connections only
+Third party penetration scans are done annually. Internal scans are done monthly."
+"Are vulnerability assessements, scans or penetration tests performed by trained and experienced personnel or company?",Yes
+Are vulnerability assessments or scans on internal or external network connections performed at least quarterly?,Yes
+Where is the application or service being hosted?,"Hosted in a cloud or data center environment managed by my organization or a 3rd party (e.g. public, hybrid, private cloud or data center)
+Hosted in a cloud / data center environment managed by Qualcomm. (e.g. Qualcomm’s AWS account or data center)
+Other"

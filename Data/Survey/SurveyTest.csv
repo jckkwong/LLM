@@ -1,0 +1,137 @@
+﻿question,answer
+Company name,Signifi Solutions Inc
+Responder name,Razvan Anghelidi
+Responder title,Director of Technology
+Responder email address,ranghelidi@signifi.com
+"Do you have a dedicated security authority for the organization, e.g. CISO?","Yes
+Razvan Anghelidi, Director of Technology"
+Is senior management involved in your cyber risk management ?,Yes
+Do you have documented security policy?,Yes
+"Do you determine, prioritize, and treat cybersecurity risks related to your operation?",Yes
+"Do you have third party assessments or certifications, e.g. ISO 9001:2015, ISO27001, SOC, CMMI for the organization?","No
+We work towards obtaining a SOC 2 certificate during Q3 2020."
+"For your most recent independent third-party security program assessment: Were all identified Critical, High, and Medium risk findings/non-conformances/issues remediated? (If no, explain plans to address.)",Yes
+"Do you have a documented, and tested, business continuity/disaster recovery plan?",Yes
+What is your RTO (recovery time objective)?,"Depends on the hosting plan, we offer between 15 minutes RPO + RTO for the best (private cloud in primary DC, DR to warm VMs in Azure) to standard (24-48 hours, private cloud in primary DC, nightly VM backups to Signifi office)"
+What is your RPO (recovery point objective)?,"Depends on the hosting plan, we offer between 15 minutes RPO + RTO for the best (private cloud in primary DC, DR to warm VMs in Azure) to standard (24-48 hours, private cloud in primary DC, nightly VM backups to Signifi office)"
+Do you have an documented incident response plan for the organization?,Yes
+"Is a process in place to wipe data from hardware before it is disposed or reused in a way that meets required compliance sets. (e.g. degaussing, cryptographic wiping, disk shredding, etc.)",Yes
+What is your PCI DSS compliance level?,3
+Do you use a set of detailed practices for your Customer Support activities e.g. ITIL?,Yes
+"Are all entrances protected by security officer, receptionist or electronic access control system?","Yes
+All customer data for Signifi hosted servers are in third party data centers with strict physical and network security controls."
+Are all visitors required to provide proof of ID and sign in before entry to internal area?,Yes
+Is access to restricted areas logged?,Yes
+Do all fence lines and complete building perimeters have CCTV coverage?,Yes
+Where is the data located and to what countries is it transferred?,"Signifi hosted servers are in data centers in Canada (under PIPEDA) and France/Germany (for customers that need GDPR). On premise is an option, or a data center (or public cloud) in a location of the customer's choosing."
+"If (EU/California, etc.) then does your company have a documented compliance program to meet the requirements of these regulations?",Yes
+"If EU, what data transfer mechanisms does the company utilize. (BCR, Privacy Shield, standard contractual clauses)",N/A
+"If EU, do you comply with the EU cookie law?",N/A
+Does the company have a procedure on how it would respond to a breach and how/when would they notify MSI?,Yes
+Can company respond in a timely manner (based on regulations) to data subject access requests and have a process in place to notify MSI if they receive a request that involves MSI data?,Yes
+Does the company have a procedure to delete MSI data at the termination of the contract/relationship with MSI?,Yes
+"If required in contract, does the company have procedures in place to ensure MSI data is not shared with any parties beyond the terms detailed in the applicable contract?",Yes
+Do you support litigation holds (freeze of MSI data from a specific point in time)?,"Yes
+Only if the request is for a period that is covered by our backup policy (e.g. last 7 days for multi-tenant)"
+Does your company have a documented privacy program?,Yes
+Do you have dedicated or partially dedicated privacy personnel at your company?,Yes
+Do you have a documented training and awareness program for employees that covers security and privacy?,Yes
+Do you have a documented training program for secure design and development?,Yes
+Do you perform background checks on employees and contractors?,Yes
+Is a disciplinary process in place for employees who knowingly deviate from policies?,Yes
+Do you have a process to assess and manage supply chain risk?,Yes
+Do you have any Chinese or Russian based suppliers?,Yes
+"Do you ensure that your 3rd party partners, vendors, contractors, and suppliers adhere to your Security and Privacy policies?",Yes
+Do you establish Quality criteria for your 3rd Party Vendor product before releasing to production?,Yes
+Are Service and Support plans established for your 3rd Party Vendors?,Yes
+"Are performance measures tracked for your 3rd Party Vendors e.g. escaped defects, resolution times?",Yes
+Do you have a documented Open Source Software Policy?,"No
+We are working on one, will have it for end of September 2020"
+Do you perform Open Source Software scans?,No
+Is the network segregated?,Yes
+Are Intrusion Protection systems deployed?,Yes
+Are Intrusion Detection systems deployed?,Yes
+Is endpoint protection deployed?,Yes
+Is the network monitored and events logged?,Yes
+Are the logs encrypted and protected?,Yes
+Is data in transit and at rest encrypted within your network?,Both
+Is remote access to the network protected (e.g. VPN),Yes
+"Is multifactor authentication used, at a minimum for privileged accounts?",All
+Is the principle of least privilege used for account permissions?,Yes
+How often are backup taken?,Daily
+Do you encrypt backups (tape or disk)?,Yes
+Are copies of backups stored off network?,Off site
+Are back-ups tested?,Yes
+How often is vulnerability scanning performed?,At least Quarterly
+ How often are penetration tests performed for the in-scope systems?,"Annually
+Third party penetration testing, annualy."
+"For your most recent penetration test, were all identified Critical, High, and Medium risk findings remediated? If no, explain plans to address.",Yes
+Do you participate in any industry cyber incident sharing?,No
+"Do you encrypt portable devices (laptops, mobile devices)?",Yes
+" Do you encrypt portable media (USB drives, tapes, etc.)",Yes
+Do you have policies and procedures established and mechanisms implemented for effective encryption key management?,Yes
+"Do you use strong, one-way cryptographic hash functions to store passwords?",Yes
+Do you use metrics to drive continuous improvement of your processes?,Yes
+"Do you use an industry standard tool for defect tracking e.g. JIRA, Azure DevOps, BugZilla?",Yes
+you have resolution time goals established for release and post-release defects?,Yes
+Are defect backlog thresholds established to help maintain product quality?,No
+Are you able to maintain a defect backlog < 10 throughout the development cycle?,N/A
+Do all customer found defects go through a Root Cause Analysis?,Yes
+Can Upgrades be pushed or promoted automatically without manual interaction?,No
+Will your software allow upgrades without service interruptions?,"N/A
+Depending on the SLA"
+Is Availability (Uptime) tracked and continuously improved with root cause analysis & lessons learned after an Outage?,Yes
+"Do you use an industry standard tool for Customer Support cases e.g. JIRA Service Desk, BMC Remedy ITSM?",Yes
+Do you have the ability to deploy a hot fix or patch for emergency repair?,Yes
+" Do you have a documented SDLC process that includes Security, Privacy, Quality, etc. ",No
+"Do your current products and offerings have cybersecurity related certifications (e.g. FIPS, ISO 27000 Series, DISA, NIST, FedRamp)?",No
+Do you use an Agile development process e.g. Agile (Scrum/Kanban)? ,Yes
+Do you release on short duration cycles (3 months or less)?,Yes
+"Do you have a certified Project Manager or Scrum Master facilitating Sprints, Releases and Projects e.g. PMP, CSM, ACP?",Yes
+"Are meetings held (at least weekly) to discuss progress, dependencies, issues and risk mitigation affecting launch dates?",Yes
+"Do you use an industry standard tool for tracking the progress of Sprints, Releases and Projects e.g. MS Project, Smartsheet, JIRA?",Yes
+Is there a definition of done defined for both Sprints/Releases?,Yes
+Are requirements documented and traceable throughout the software development lifecycle?,Yes
+Do you carry out vulnerability scans as part of the development lifecycle?,Yes
+What Hosting Providers will store or process Motorola Solutions data?,"For multi-tenant:
+Primary Data Center: OVH Montreal, QC, Canada
+DR Data Center: Signifi office, Mississauga, ON, Canada"
+In what countries are the Hosting Providers/Datacenters?,Canada
+"If this is a Cloud solution, which cloud architecture will be used?",Private cloud - VMWare HA
+"Who from your company, the hosting provider, and anyone in your supply chain, will have access to Motorola Solutions data?",Signifi customer service will have explicit access to data for business reasons. Signifi IT will have implicit access to data by having access to the database files and VM (but not to sensitive fields that are encrypted in the database).
+From which countries or regions will these personnel provide solutions or services?,"Canada, Albania"
+Do you allow your personnel to store Motorola Solutions data on their personal devices?,No
+Are internet-facing and internal network systems included in vulnerability scans?,Yes
+How often are penetration tests performed for the in-scope systems?,Annually
+Do you support SAML 2.0 federated single sign-on (SSO).,"Yes
+For implementation details please reach out to PM"
+Is SSO already implemented (or planned) with Motorola Solutions?,"N/A
+For implementation details please reach out to PM"
+"If SSO is not supported, is multi-factor authentication available? ","N/A
+MFA will be implemented for access to the portal in August/September 2020"
+"Do you have formal procedures to request, approve, provision, de-provision, and review access rights for your internal user and system accounts?",Yes
+ Do you have network intrusion detection/intrusion prevention (IDS/IPS) systems in place?,IDS and IDP
+"Do you have provisions in place (detection, revocation) in the event of the theft of a customer’s credentials?",Yes
+Do you have controls to manage malware/malicious code?,Yes
+Do you have logging and monitoring processes in place for your infrastructure and applications? Describe.,"Yes
+All servers (VMs) are monitored with SIEM at OS and application level, and are monitored at the network and infrastructure level with a different tool."
+Do you protect logs from unauthorized access or tampering? Explain.,"Yes
+Logs are duplicated in the SIEM system and encrypted"
+Do you provide relevant APIs to provide logs and other event information to Motorola Solutions SIEM? Explain the log file format and how access to the logs is provided.,N/A
+Do you review administrator and privileged account usage?.,Quarterly
+Do you have a team that is capable of finding and responding to Advanced Persistent Threats (APT)? Describe.,"N/A
+We offer a hosting plan where the infrastructure and OS are managed by a 24/7 Security Operations Center"
+"Are there policies, procedures and mechanisms implemented which define patch management? ",Yes
+Do you encrypt data transmitted over public networks (e.g. the internet)?,Yes
+"Do you encrypt Motorola Solutions data at rest (application, file system, or database)? (This is not laptop encryption.)","Yes
+On the multi-tenant server, data at rest is stored on an Ubuntu encrypted partition. Sensitive data (e.g. employee badge number) can be hashed and/or stored in an encrypted database field)"
+"Once Motorola Solutions data is deleted or wiped from production systems, how long is that data retained in backups?","<1 Month
+On the multi-tenant server, we keep the last 7 nightly backups"
+ Is data encrypted in transit from a user’s device to the hosting platform? Explain,"Yes
+Both the kiosks/clients and the portal are connecting to the system through TLS 1.2"
+"Must the user grant the application device permissions? If yes, provide specific device permissions required for each supported mobile platform (e.g. Android - location setting, iOS - location services, etc.)","No
+The portal is web based, no device permissions required"
+Are users authenticated and authorized for the mobile application?,"N/A
+The portal is web based, so accessible over mobile devices. Authentication and authorization are done by the portal and its user roles."
+Do you store Motorola Solutions data on your enterprise network or assets?,Yes
+Do you access Motorola Solutions customer equipment from your enterprise network or assets?,Yes
